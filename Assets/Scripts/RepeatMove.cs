@@ -27,7 +27,7 @@ public class RepeatMove : MonoBehaviour
             (_start, _end) = (_end, _start);
         }
 
-        transform.Translate(_move * Time.deltaTime);
+        transform.Translate(speed * Time.deltaTime * _move);
     }
 
     private bool IsExceeded(Vector3 cur, Vector3 end, Vector3 move)
