@@ -314,6 +314,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: projectile_2
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 603
+        width: 9
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d31871cbf82334d873abd0e7e6e179
+      internalID: -1690887160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -333,6 +355,7 @@ TextureImporter:
       laser_1: -1347193345
       meteor_0: -817876467
       meteor_1: 1597760506
+      projectile_2: -1690887160
       saucer_0: 1544672128
       saucer_1: 1060381678
       sheet_1: 613435604629981061

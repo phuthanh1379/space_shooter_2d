@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 675206561000903909}
   - component: {fileID: 4307488827097267617}
   - component: {fileID: 6539192886248130822}
-  - component: {fileID: 6533123813918106986}
-  m_Layer: 10
-  m_Name: Projectile (1)
-  m_TagString: PlayerDamage
+  - component: {fileID: 6993816241927615603}
+  m_Layer: 11
+  m_Name: Projectile-Enemy
+  m_TagString: EnemyDamage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1690887160, guid: a86654fd8ba70a241aa739a25e16f397, type: 3}
+  m_Sprite: {fileID: -1347193345, guid: a86654fd8ba70a241aa739a25e16f397, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -104,8 +104,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bfb6103d9dcd884b9780631e141c4df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Projectile
-  speed: 10
---- !u!70 &6533123813918106986
+  speed: 5
+--- !u!70 &6993816241927615603
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,5 +140,5 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.09, y: 0.54}
+  m_Size: {x: 0.13, y: 0.54}
   m_Direction: 0

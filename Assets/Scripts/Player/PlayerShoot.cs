@@ -59,7 +59,7 @@ public class PlayerShoot : MonoBehaviour
     {
         if (_isReloading)
         {
-            Debug.LogError($"Gun is reloading! Time left: {_reloadTime}");
+            //Debug.LogError($"Gun is reloading! Time left: {_reloadTime}");
             return;
         }
 
@@ -67,7 +67,7 @@ public class PlayerShoot : MonoBehaviour
         var bullet = Instantiate(projectile);
         bullet.transform.position = gunPoint.position;
         _bulletCount++;
-        Debug.LogError($"Shot Fired! Bullet count={_bulletCount}");
+        //Debug.LogError($"Shot Fired! Bullet count={_bulletCount}");
 
         if (_bulletCount >= maxBullets)
         {
@@ -77,7 +77,7 @@ public class PlayerShoot : MonoBehaviour
 
     private void Reload()
     {
-        Debug.LogError($"Reloaded!");
+        //Debug.LogError($"Reloaded!");
         _bulletCount = 0;
         _reloadTime = reloadDuration;
         _isReloading = false;

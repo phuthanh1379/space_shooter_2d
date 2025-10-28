@@ -8,9 +8,10 @@ public class Projectile : MonoBehaviour
     // SOLUTION 2: Countdown duration in Update
     // private float duration = 2f;
 
-    private void Start()
+    private void OnBecameInvisible()
     {
-        StartCoroutine(WaitToSelfDestruct(2f));
+        //StartCoroutine(WaitToSelfDestruct(2f));
+        SelfDestruct();
     }
 
     private void Update()
@@ -28,10 +29,8 @@ public class Projectile : MonoBehaviour
     // SOLUTION 1: Countdown duration with Unity Coroutine
     private IEnumerator WaitToSelfDestruct(float time)
     {
-        Debug.Log("START Coroutine");
         // Will wait for <time> seconds then continue the process
         yield return new WaitForSeconds(time);
-        Debug.Log("END Coroutine");
         SelfDestruct();
     }
 

@@ -1,33 +1,65 @@
+using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class RepeatMove : MonoBehaviour
 {
     [SerializeField] private float speed;
-    [SerializeField] private Vector3 startPosition;
-    [SerializeField] private Vector3 endPosition;
+    [SerializeField] private List<Vector3> destinations = new();
 
-    private Vector3 _start;
-    private Vector3 _end;
+    private bool _isMovable;
+    private int _currentIndex;
+    private Vector3 _currentPosition;
+    private Vector3 _nextPosition;
     private Vector3 _move;
 
     private void Start()
     {
-        _start = startPosition;
-        _end = endPosition;
-        transform.position = startPosition;
-        _move = endPosition - startPosition;
+        if (destinations == null || destinations.Count <= 1)
+        {
+            _isMovable = false;
+            return;
+        }
+
+        _isMovable = true;
+        _currentIndex = 0;
+        MoveNext();
     }
 
     private void Update()
     {
-        if (IsExceeded(transform.position, _end, _move))
+        if (!_isMovable)
         {
-            _move *= -1;
-            (_start, _end) = (_end, _start);
+            return;
+        }
+
+        if (IsExceeded(transform.position, _nextPosition, _move))
+        {
+            //_move *= -1;
+            //(_currentPosition, _nextPosition) = (_nextPosition, _currentPosition);
+            MoveNext();
         }
 
         transform.Translate(speed * Time.deltaTime * _move);
+    }
+
+    private void MoveNext()
+    {
+        if (_currentIndex >= destinations.Count)
+        {
+            _currentIndex = 0;
+        }
+
+        var next = _currentIndex + 1;
+        if (next >= destinations.Count)
+        {
+            next = 0;
+        }
+        _currentPosition = destinations[_currentIndex];
+        _nextPosition = destinations[next];
+        transform.position = _currentPosition;
+        _move = _nextPosition - _currentPosition;
+        _currentIndex += 1;
     }
 
     private bool IsExceeded(Vector3 cur, Vector3 end, Vector3 move)
