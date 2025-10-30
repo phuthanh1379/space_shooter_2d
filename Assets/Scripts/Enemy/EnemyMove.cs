@@ -7,6 +7,13 @@ public class EnemyMove : MonoBehaviour
     private Vector3 _move;
     private float _speed;
 
+    private bool _isMovable;
+
+    public void SetMovable(bool isMovable)
+    {
+        _isMovable = isMovable;
+    }
+
     public void Init(Vector3 start, Vector3 end, float speed)
     {
         _start = start;
@@ -14,17 +21,22 @@ public class EnemyMove : MonoBehaviour
         transform.position = start;
         _move = end - start;
         _speed = speed;
+        _isMovable = true;
     }
 
     private void Update()
     {
-        //if (IsExceeded(transform.position, _end, _move))
-        //{
-        //    _move *= -1;
-        //    (_start, _end) = (_end, _start);
-        //}
+        if (!_isMovable)
+        {
+            return;
+        }
 
-        //transform.Translate(_speed * Time.deltaTime * _move);
+        if (IsExceeded(transform.position, _end, _move))
+        {
+            _move *= -1;
+            (_start, _end) = (_end, _start);
+        }
+
         transform.Translate(_speed * Time.deltaTime * _move);
     }
 

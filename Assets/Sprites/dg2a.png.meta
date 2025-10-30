@@ -1,0 +1,4641 @@
+fileFormatVersion: 2
+guid: 0deb2d74d9dc7334f91de8de24c7e8e7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3558384313568116193
+    second: dg2a_0
+  - first:
+      213: 5457484869648711513
+    second: dg2a_1
+  - first:
+      213: 4388220267304265290
+    second: dg2a_2
+  - first:
+      213: -1010427159222579529
+    second: dg2a_3
+  - first:
+      213: 226493377377962735
+    second: dg2a_4
+  - first:
+      213: 3159699667189198919
+    second: dg2a_5
+  - first:
+      213: 4623501476168753517
+    second: dg2a_6
+  - first:
+      213: -4353060244606476122
+    second: dg2a_7
+  - first:
+      213: -459162733809188075
+    second: dg2a_8
+  - first:
+      213: 3170801043340997165
+    second: dg2a_9
+  - first:
+      213: 526152297819245195
+    second: dg2a_10
+  - first:
+      213: 3126275327121946598
+    second: dg2a_11
+  - first:
+      213: -3571347630678250676
+    second: dg2a_12
+  - first:
+      213: -7170669077062406127
+    second: dg2a_13
+  - first:
+      213: -931224610194512921
+    second: dg2a_14
+  - first:
+      213: -4221604858744090883
+    second: dg2a_15
+  - first:
+      213: -8398804713948031093
+    second: dg2a_16
+  - first:
+      213: -5825591116618354221
+    second: dg2a_17
+  - first:
+      213: 7948395562822120480
+    second: dg2a_18
+  - first:
+      213: 6330702847976316864
+    second: dg2a_19
+  - first:
+      213: -7378151072594546708
+    second: dg2a_20
+  - first:
+      213: 5052644771375203270
+    second: dg2a_21
+  - first:
+      213: -8835206678682722004
+    second: dg2a_22
+  - first:
+      213: 7817274504587828484
+    second: dg2a_23
+  - first:
+      213: 5023665770678144558
+    second: dg2a_24
+  - first:
+      213: 745635749405294432
+    second: dg2a_25
+  - first:
+      213: -784496700588408299
+    second: dg2a_26
+  - first:
+      213: -9149120297514629323
+    second: dg2a_27
+  - first:
+      213: -6928450320763050434
+    second: dg2a_28
+  - first:
+      213: -9212498733911244050
+    second: dg2a_29
+  - first:
+      213: -6767843607477715823
+    second: dg2a_30
+  - first:
+      213: -1742779778210809088
+    second: dg2a_31
+  - first:
+      213: -8179667369039044271
+    second: dg2a_32
+  - first:
+      213: -2695326237125994586
+    second: dg2a_33
+  - first:
+      213: 6543607093851113869
+    second: dg2a_34
+  - first:
+      213: 902167880355303419
+    second: dg2a_35
+  - first:
+      213: -5963747280633757314
+    second: dg2a_36
+  - first:
+      213: -711567446794306334
+    second: dg2a_37
+  - first:
+      213: -1420038038249821154
+    second: dg2a_38
+  - first:
+      213: -320640988575173857
+    second: dg2a_39
+  - first:
+      213: -1095598240808035672
+    second: dg2a_40
+  - first:
+      213: 1342087258754602937
+    second: dg2a_41
+  - first:
+      213: -1645190839477281435
+    second: dg2a_42
+  - first:
+      213: 8305312398288372819
+    second: dg2a_43
+  - first:
+      213: 6636338881443458504
+    second: dg2a_44
+  - first:
+      213: -8525896945863950365
+    second: dg2a_45
+  - first:
+      213: 6931655991482625643
+    second: dg2a_46
+  - first:
+      213: -2514487934163500683
+    second: dg2a_47
+  - first:
+      213: 3530851375962461438
+    second: dg2a_48
+  - first:
+      213: 2951383202314524509
+    second: dg2a_49
+  - first:
+      213: 276950123457929260
+    second: dg2a_50
+  - first:
+      213: 7811673379730409324
+    second: dg2a_51
+  - first:
+      213: 1195479411549646229
+    second: dg2a_52
+  - first:
+      213: -6311001403879298278
+    second: dg2a_53
+  - first:
+      213: 3801372233463504801
+    second: dg2a_54
+  - first:
+      213: -6811588670506970857
+    second: dg2a_55
+  - first:
+      213: 5475874575045589950
+    second: dg2a_56
+  - first:
+      213: -7912583486070606053
+    second: dg2a_57
+  - first:
+      213: -1667529017157386340
+    second: dg2a_58
+  - first:
+      213: -943473998078436892
+    second: dg2a_59
+  - first:
+      213: -5396344746078026647
+    second: dg2a_60
+  - first:
+      213: 2840725577769941935
+    second: dg2a_61
+  - first:
+      213: 5108974918416960011
+    second: dg2a_62
+  - first:
+      213: 6500924963473623008
+    second: dg2a_63
+  - first:
+      213: -8030723142580166184
+    second: dg2a_64
+  - first:
+      213: -7550345034264344247
+    second: dg2a_65
+  - first:
+      213: 7519837325594734194
+    second: dg2a_66
+  - first:
+      213: 718189385771121876
+    second: dg2a_67
+  - first:
+      213: 4341405508806971436
+    second: dg2a_68
+  - first:
+      213: -426993874286039821
+    second: dg2a_69
+  - first:
+      213: 6110025644239296971
+    second: dg2a_70
+  - first:
+      213: 6920726053720263448
+    second: dg2a_71
+  - first:
+      213: -4293673061664065305
+    second: dg2a_72
+  - first:
+      213: -5951849460417563567
+    second: dg2a_73
+  - first:
+      213: 1684630355911524954
+    second: dg2a_74
+  - first:
+      213: 2836220813033351879
+    second: dg2a_75
+  - first:
+      213: 5736624861650754415
+    second: dg2a_76
+  - first:
+      213: 490247673969682685
+    second: dg2a_77
+  - first:
+      213: 4712730871461029801
+    second: dg2a_78
+  - first:
+      213: 3116990487066021471
+    second: dg2a_79
+  - first:
+      213: -6206730147072429171
+    second: dg2a_80
+  - first:
+      213: 8824812813409323114
+    second: dg2a_81
+  - first:
+      213: -5673485070769977829
+    second: dg2a_82
+  - first:
+      213: -6832068737432957863
+    second: dg2a_83
+  - first:
+      213: -1316167255374679124
+    second: dg2a_84
+  - first:
+      213: 2799392415441308116
+    second: dg2a_85
+  - first:
+      213: -5448491377607569897
+    second: dg2a_86
+  - first:
+      213: -1721161661260353404
+    second: dg2a_87
+  - first:
+      213: 8327420519673317049
+    second: dg2a_88
+  - first:
+      213: 1473829788438152715
+    second: dg2a_89
+  - first:
+      213: -514856165041557920
+    second: dg2a_90
+  - first:
+      213: 4969564776265132307
+    second: dg2a_91
+  - first:
+      213: 6136529480114111497
+    second: dg2a_92
+  - first:
+      213: -2515659008314819188
+    second: dg2a_93
+  - first:
+      213: 5757387326013145320
+    second: dg2a_94
+  - first:
+      213: -8979206843175929415
+    second: dg2a_95
+  - first:
+      213: 3183930310080614680
+    second: dg2a_96
+  - first:
+      213: 1523960073390359859
+    second: dg2a_97
+  - first:
+      213: -3248866516934350880
+    second: dg2a_98
+  - first:
+      213: -7654722345053597846
+    second: dg2a_99
+  - first:
+      213: 5801340796990918349
+    second: dg2a_100
+  - first:
+      213: 6278273958771524068
+    second: dg2a_101
+  - first:
+      213: -1295490934458041139
+    second: dg2a_102
+  - first:
+      213: 8277279369110713670
+    second: dg2a_103
+  - first:
+      213: 5313101448651239125
+    second: dg2a_104
+  - first:
+      213: -6913755069222614319
+    second: dg2a_105
+  - first:
+      213: 8498303234100774939
+    second: dg2a_106
+  - first:
+      213: 5579678660958713214
+    second: dg2a_107
+  - first:
+      213: -5308334270104694939
+    second: dg2a_108
+  - first:
+      213: 6142476629921632663
+    second: dg2a_109
+  - first:
+      213: 4436688582676525990
+    second: dg2a_110
+  - first:
+      213: 4488745853614318494
+    second: dg2a_111
+  - first:
+      213: -6027080628839675843
+    second: dg2a_112
+  - first:
+      213: -6183168576184901131
+    second: dg2a_113
+  - first:
+      213: -2710975066036633354
+    second: dg2a_114
+  - first:
+      213: 7240661944044583036
+    second: dg2a_115
+  - first:
+      213: -3543452750963936742
+    second: dg2a_116
+  - first:
+      213: 2117367214288089159
+    second: dg2a_117
+  - first:
+      213: -1087308190080480649
+    second: dg2a_118
+  - first:
+      213: 8742588011640615427
+    second: dg2a_119
+  - first:
+      213: -2772597083638097310
+    second: dg2a_120
+  - first:
+      213: -8811595331606129454
+    second: dg2a_121
+  - first:
+      213: 2480597576295802675
+    second: dg2a_122
+  - first:
+      213: 3087208582325594461
+    second: dg2a_123
+  - first:
+      213: -249683729995650345
+    second: dg2a_124
+  - first:
+      213: -5268068836148023450
+    second: dg2a_125
+  - first:
+      213: -2864423195150603672
+    second: dg2a_126
+  - first:
+      213: 678461392170412772
+    second: dg2a_127
+  - first:
+      213: 1534876108080485417
+    second: dg2a_128
+  - first:
+      213: 5550043866434903541
+    second: dg2a_129
+  - first:
+      213: -5855880040065948746
+    second: dg2a_130
+  - first:
+      213: 4625111052906457175
+    second: dg2a_131
+  - first:
+      213: 4287274642727379156
+    second: dg2a_132
+  - first:
+      213: -8006060466850211368
+    second: dg2a_133
+  - first:
+      213: 5143507145496250369
+    second: dg2a_134
+  - first:
+      213: 5688312583372638361
+    second: dg2a_135
+  - first:
+      213: -8942358020267416369
+    second: dg2a_136
+  - first:
+      213: -4201729930211315821
+    second: dg2a_137
+  - first:
+      213: -949610279091838696
+    second: dg2a_138
+  - first:
+      213: -5454323556541623892
+    second: dg2a_139
+  - first:
+      213: 4869773078890413805
+    second: dg2a_140
+  - first:
+      213: -6443007723360738966
+    second: dg2a_141
+  - first:
+      213: 8494516561142485604
+    second: dg2a_142
+  - first:
+      213: -6509141630563002510
+    second: dg2a_143
+  - first:
+      213: -1585812775228108967
+    second: dg2a_144
+  - first:
+      213: -8890768980143865328
+    second: dg2a_145
+  - first:
+      213: -2798730602211796082
+    second: dg2a_146
+  - first:
+      213: -9017818305669358242
+    second: dg2a_147
+  - first:
+      213: -3141463996862855812
+    second: dg2a_148
+  - first:
+      213: -7051587830264835877
+    second: dg2a_149
+  - first:
+      213: 8696681706108737208
+    second: dg2a_150
+  - first:
+      213: -4734424398063664002
+    second: dg2a_151
+  - first:
+      213: 6175447321620812812
+    second: dg2a_152
+  - first:
+      213: 3553710174182452605
+    second: dg2a_153
+  - first:
+      213: 6775817972838304118
+    second: dg2a_154
+  - first:
+      213: 1255708573538581711
+    second: dg2a_155
+  - first:
+      213: 2868199207378271498
+    second: dg2a_156
+  - first:
+      213: -4754005920193006042
+    second: dg2a_157
+  - first:
+      213: 3607765962157860825
+    second: dg2a_158
+  - first:
+      213: -908473522438529964
+    second: dg2a_159
+  - first:
+      213: -4917483850615352899
+    second: dg2a_160
+  - first:
+      213: -7341440509086515458
+    second: dg2a_161
+  - first:
+      213: -8386772026238420506
+    second: dg2a_162
+  - first:
+      213: -6521486833596912507
+    second: dg2a_163
+  - first:
+      213: -4494657419710270338
+    second: dg2a_164
+  - first:
+      213: -2241048040954230557
+    second: dg2a_165
+  - first:
+      213: 3086563751049345732
+    second: dg2a_166
+  - first:
+      213: 6500864394882389530
+    second: dg2a_167
+  - first:
+      213: 508927822476704910
+    second: dg2a_168
+  - first:
+      213: -8809486269170914753
+    second: dg2a_169
+  - first:
+      213: 1084773672208937741
+    second: dg2a_170
+  - first:
+      213: -7159177979317136140
+    second: dg2a_171
+  - first:
+      213: -8072209912291847780
+    second: dg2a_172
+  - first:
+      213: 1644422280862064040
+    second: dg2a_173
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dg2a_0
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1139
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1edbc881eabe16130800000000000000
+      internalID: 3558384313568116193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_1
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1139
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ffa7ee291ecbb40800000000000000
+      internalID: 5457484869648711513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_2
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1139
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4627d4551716ec30800000000000000
+      internalID: 4388220267304265290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_3
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1131
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be81272add3af1f0800000000000000
+      internalID: -1010427159222579529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_4
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1139
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea8796d68aa42300800000000000000
+      internalID: 226493377377962735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_5
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1139
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7407bb34b1289db20800000000000000
+      internalID: 3159699667189198919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_6
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1139
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d616881a81af92040800000000000000
+      internalID: 4623501476168753517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_7
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1139
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a02b5265c2d693c0800000000000000
+      internalID: -4353060244606476122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_8
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1139
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513c4352de9b0a9f0800000000000000
+      internalID: -459162733809188075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_9
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1139
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2237c1dfb2f00c20800000000000000
+      internalID: 3170801043340997165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_10
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1139
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a85492ab44d4700800000000000000
+      internalID: 526152297819245195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_11
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1139
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7fb27a8d2c26b20800000000000000
+      internalID: 3126275327121946598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_12
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1139
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b6dff6046007ec0800000000000000
+      internalID: -3571347630678250676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_13
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1139
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11031db577aac7c90800000000000000
+      internalID: -7170669077062406127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_14
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1139
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3214f9620a313f0800000000000000
+      internalID: -931224610194512921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_15
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1139
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfece7c7fb8d965c0800000000000000
+      internalID: -4221604858744090883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_16
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1139
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8750478c93717b80800000000000000
+      internalID: -8398804713948031093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_17
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1139
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1ba47aeb7572fa0800000000000000
+      internalID: -5825591116618354221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_18
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1139
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024bd48e6af5e4e60800000000000000
+      internalID: 7948395562822120480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_19
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1139
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf9e20e2bc2bd750800000000000000
+      internalID: 6330702847976316864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_20
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1084
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cefa5dac0ba8b9990800000000000000
+      internalID: -7378151072594546708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_21
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1083
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c3cd0646a99e1640800000000000000
+      internalID: 5052644771375203270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_22
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1083
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2125ff265a036580800000000000000
+      internalID: -8835206678682722004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_23
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 1109
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ddca58eb98c7c60800000000000000
+      internalID: 7817274504587828484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_24
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1083
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e4f83e665a7b540800000000000000
+      internalID: 5023665770678144558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_25
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1083
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f722773c7095a00800000000000000
+      internalID: 745635749405294432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_26
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1083
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51246f14868ec15f0800000000000000
+      internalID: -784496700588408299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_27
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1083
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5370353409bc70180800000000000000
+      internalID: -9149120297514629323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_28
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1083
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e362afa442339df90800000000000000
+      internalID: -6928450320763050434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_29
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1083
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee20c7f1631a62080800000000000000
+      internalID: -9212498733911244050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_30
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 1083
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c74e8b81ac312a0800000000000000
+      internalID: -6767843607477715823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_31
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 1075
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00bb20e760760d7e0800000000000000
+      internalID: -1742779778210809088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_32
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1083
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 151e2979ddbfb7e80800000000000000
+      internalID: -8179667369039044271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_33
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 1083
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a7905a5117489ad0800000000000000
+      internalID: -2695326237125994586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_34
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1083
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89c8ba7bff8fca50800000000000000
+      internalID: 6543607093851113869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_35
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1083
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff485448e4258c00800000000000000
+      internalID: 902167880355303419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_36
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1083
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e718f9f02738c3da0800000000000000
+      internalID: -5963747280633757314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_37
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1083
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ecf71c5d210026f0800000000000000
+      internalID: -711567446794306334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_38
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 988
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ca39a8de20b4ce0800000000000000
+      internalID: -1420038038249821154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_39
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 988
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13fb8f38badc8bf0800000000000000
+      internalID: -320640988575173857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_40
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 988
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa18186437abc0f0800000000000000
+      internalID: -1095598240808035672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_41
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 988
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b755ab404d00a210800000000000000
+      internalID: 1342087258754602937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_42
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 988
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56dda39e5ab1b29e0800000000000000
+      internalID: -1645190839477281435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_43
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 988
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35440a07f95624370800000000000000
+      internalID: 8305312398288372819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_44
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 988
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdec854d03091c50800000000000000
+      internalID: 6636338881443458504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_45
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 988
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eff03e56ededa980800000000000000
+      internalID: -8525896945863950365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_46
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 988
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ea7851660323060800000000000000
+      internalID: 6931655991482625643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_47
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 988
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571cd24db8eba1dd0800000000000000
+      internalID: -2514487934163500683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_48
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 988
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef411f28e9a100130800000000000000
+      internalID: 3530851375962461438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_49
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 988
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57130aa26b65f820800000000000000
+      internalID: 2951383202314524509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_50
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 988
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20e5318bace7d300800000000000000
+      internalID: 276950123457929260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_51
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 988
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67c4340d83a86c60800000000000000
+      internalID: 7811673379730409324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_52
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 988
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59da5bdd032379010800000000000000
+      internalID: 1195479411549646229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_53
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 988
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b68c809a1da68a0800000000000000
+      internalID: -6311001403879298278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_54
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 988
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af10a2e7ef21c430800000000000000
+      internalID: 3801372233463504801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_55
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 988
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7115b5a81306871a0800000000000000
+      internalID: -6811588670506970857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_56
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 988
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb7f20e9e63efb40800000000000000
+      internalID: 5475874575045589950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_57
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 988
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17b329fd3bd03290800000000000000
+      internalID: -7912583486070606053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_58
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 988
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f7daf913fbbd8e0800000000000000
+      internalID: -1667529017157386340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_59
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 988
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e997b1c56b18e2f0800000000000000
+      internalID: -943473998078436892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_60
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 988
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96449746b055c15b0800000000000000
+      internalID: -5396344746078026647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_61
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 988
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fabf757bcd84c6720800000000000000
+      internalID: 2840725577769941935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_62
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 988
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a8f9aae99b6e640800000000000000
+      internalID: 5108974918416960011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_63
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 767
+        width: 281
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e780579fcce73a50800000000000000
+      internalID: 6500924963473623008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_64
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 760
+        width: 281
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d12005b9d32d8090800000000000000
+      internalID: -8030723142580166184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_65
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 818
+        width: 31
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9490a0dd139c73790800000000000000
+      internalID: -7550345034264344247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_66
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 818
+        width: 31
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e2cc0b434db5860800000000000000
+      internalID: 7519837325594734194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_67
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 821
+        width: 31
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dcf754f07587f900800000000000000
+      internalID: 718189385771121876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_68
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 818
+        width: 40
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c201d5afe45cf3c30800000000000000
+      internalID: 4341405508806971436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_69
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 900
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fca9e96553031af0800000000000000
+      internalID: -426993874286039821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_70
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 900
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9196d73fb2bc450800000000000000
+      internalID: 6110025644239296971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_71
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 800
+        width: 45
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b89c3adab5b0060800000000000000
+      internalID: 6920726053720263448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_72
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 909
+        width: 40
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e879d9691fc964c0800000000000000
+      internalID: -4293673061664065305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_73
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 909
+        width: 40
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154f5333378c66da0800000000000000
+      internalID: -5951849460417563567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_74
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 800
+        width: 44
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5242f51262016710800000000000000
+      internalID: 1684630355911524954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_75
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 909
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca2c617dc74c5720800000000000000
+      internalID: 2836220813033351879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_76
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 909
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b1e50fae59c9f40800000000000000
+      internalID: 5736624861650754415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_77
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 818
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df8acea79a5bdc600800000000000000
+      internalID: 490247673969682685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_78
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 821
+        width: 31
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7a37b22cbf66140800000000000000
+      internalID: 4712730871461029801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_79
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 818
+        width: 59
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e87dd5556c14b20800000000000000
+      internalID: 3116990487066021471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_80
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 818
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d833a0fd0d34dd9a0800000000000000
+      internalID: -6206730147072429171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_81
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 805
+        width: 44
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6804987f78087a70800000000000000
+      internalID: 8824812813409323114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_82
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 805
+        width: 45
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b160646336bb341b0800000000000000
+      internalID: -5673485070769977829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_83
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 624
+        width: 31
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95cc1406ead9f21a0800000000000000
+      internalID: -6832068737432957863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_84
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 626
+        width: 31
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca33466cad80cbde0800000000000000
+      internalID: -1316167255374679124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_85
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 624
+        width: 40
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d94d4de19079d620800000000000000
+      internalID: 2799392415441308116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_86
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 714
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e0ceb95f11364b0800000000000000
+      internalID: -5448491377607569897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_87
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 714
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4803e8396943d18e0800000000000000
+      internalID: -1721161661260353404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_88
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 723
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b64d6297d0f09370800000000000000
+      internalID: 8327420519673317049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_89
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 723
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06ce374268147410800000000000000
+      internalID: 1473829788438152715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_90
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 723
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e2744bb0ddad8f0800000000000000
+      internalID: -514856165041557920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_91
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 723
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319a39985d077f440800000000000000
+      internalID: 4969564776265132307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_92
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 707
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9040ae7ac05592550800000000000000
+      internalID: 6136529480114111497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_93
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 726
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d3261e575961dd0800000000000000
+      internalID: -2515659008314819188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_94
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 461
+        width: 282
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e08951e44956ef40800000000000000
+      internalID: 5757387326013145320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_95
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 624
+        width: 31
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9fdb333f2736380800000000000000
+      internalID: -8979206843175929415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_96
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 626
+        width: 30
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81154f17fb79f2c20800000000000000
+      internalID: 3183930310080614680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_97
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 612
+        width: 44
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3358f4acc91362510800000000000000
+      internalID: 1523960073390359859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_98
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 612
+        width: 45
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7a777bd15b9e2d0800000000000000
+      internalID: -3248866516934350880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_99
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 617
+        width: 45
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6fc5d86596f4c590800000000000000
+      internalID: -7654722345053597846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_100
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 617
+        width: 44
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce00a1d7b0828050800000000000000
+      internalID: 5801340796990918349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_101
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 478
+        width: 219
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1892bd6e8e02750800000000000000
+      internalID: 6278273958771524068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_102
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 686
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dccb3e1ebdd750ee0800000000000000
+      internalID: -1295490934458041139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_103
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 624
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64573863bbdced270800000000000000
+      internalID: 8277279369110713670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_104
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 631
+        width: 58
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de68761e9debb940800000000000000
+      internalID: 5313101448651239125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_105
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 631
+        width: 59
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da0eea25686d00a0800000000000000
+      internalID: -6913755069222614319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_106
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 452
+        width: 31
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b184126f3c900f570800000000000000
+      internalID: 8498303234100774939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_107
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 455
+        width: 31
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7575430e200f6d40800000000000000
+      internalID: 5579678660958713214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_108
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 452
+        width: 40
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f80692b120556b0800000000000000
+      internalID: -5308334270104694939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_109
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 536
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7911e9f53f57e3550800000000000000
+      internalID: 6142476629921632663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_110
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 536
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3377562c8429d30800000000000000
+      internalID: 4436688582676525990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_111
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 436
+        width: 44
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9360bb429a3b4e30800000000000000
+      internalID: 4488745853614318494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_112
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 545
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d388f55d9128b5ca0800000000000000
+      internalID: -6027080628839675843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_113
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 545
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1242690f8f03aa0800000000000000
+      internalID: -6183168576184901131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_114
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 436
+        width: 45
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f002f17a8ea06ad0800000000000000
+      internalID: -2710975066036633354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_115
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 545
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c787779ecaffb7460800000000000000
+      internalID: 7240661944044583036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_116
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 545
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12f96c3f7023dec0800000000000000
+      internalID: -3543452750963936742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_117
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 452
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74033ba5346626d10800000000000000
+      internalID: 2117367214288089159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_118
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 452
+        width: 31
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a41e046fa19e0f0800000000000000
+      internalID: -1087308190080480649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_119
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 455
+        width: 31
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3027d63f979e35970800000000000000
+      internalID: 8742588011640615427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_120
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 455
+        width: 58
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a977c64a1c589d0800000000000000
+      internalID: -2772597083638097310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_121
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 455
+        width: 59
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d450235bbce6b580800000000000000
+      internalID: -8811595331606129454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_122
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 441
+        width: 45
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3376ec55a5adc6220800000000000000
+      internalID: 2480597576295802675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_123
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 441
+        width: 44
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d59ed0159d7f7da20800000000000000
+      internalID: 3087208582325594461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_124
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 466
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da2a6f68f1f88cf0800000000000000
+      internalID: -249683729995650345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_125
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 281
+        width: 31
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f67111e4f04e6b0800000000000000
+      internalID: -5268068836148023450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_126
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 281
+        width: 31
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86aa8a6c7468f38d0800000000000000
+      internalID: -2864423195150603672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_127
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 283
+        width: 30
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea6222aa016a6900800000000000000
+      internalID: 678461392170412772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_128
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 281
+        width: 40
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9241f5c20b9fc4510800000000000000
+      internalID: 1534876108080485417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_129
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 362
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd10babd77b50d40800000000000000
+      internalID: 5550043866434903541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_130
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 362
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3a19c112cbbbea0800000000000000
+      internalID: -5855880040065948746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_131
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 262
+        width: 44
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758e83b6ff1bf2040800000000000000
+      internalID: 4625111052906457175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_132
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 371
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d02e4692957f7b30800000000000000
+      internalID: 4287274642727379156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_133
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 371
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d9581f5c62c4e090800000000000000
+      internalID: -8006060466850211368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_134
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 262
+        width: 45
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 108ccf25f78616740800000000000000
+      internalID: 5143507145496250369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_135
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 371
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9988f471822f0fe40800000000000000
+      internalID: 5688312583372638361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_136
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 371
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4689b52cc56e380800000000000000
+      internalID: -8942358020267416369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_137
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 174
+        width: 410
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39fa0a3e3e470b5c0800000000000000
+      internalID: -4201729930211315821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_138
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 213
+        width: 179
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811ebaf7b7e42d2f0800000000000000
+      internalID: -949610279091838696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_139
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 281
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca19a42af995e44b0800000000000000
+      internalID: -5454323556541623892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_140
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 283
+        width: 31
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deef50860d8e49340800000000000000
+      internalID: 4869773078890413805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_141
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 281
+        width: 58
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a612cf3bc96d596a0800000000000000
+      internalID: -6443007723360738966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_142
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 281
+        width: 59
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46212957ec592e570800000000000000
+      internalID: 8494516561142485604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_143
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 267
+        width: 45
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277d5958c22eaa5a0800000000000000
+      internalID: -6509141630563002510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_144
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 267
+        width: 44
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f8044deaf0ef9e0800000000000000
+      internalID: -1585812775228108967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_145
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 107
+        width: 31
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0128676c7b4ad9480800000000000000
+      internalID: -8890768980143865328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_146
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 109
+        width: 31
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b96297859e829d0800000000000000
+      internalID: -2798730602211796082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_147
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 107
+        width: 30
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d109987064ad280800000000000000
+      internalID: -9017818305669358242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_148
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 109
+        width: 30
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c758f4893274764d0800000000000000
+      internalID: -3141463996862855812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_149
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 107
+        width: 40
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0d892ba3ab32e90800000000000000
+      internalID: -7051587830264835877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_150
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 174
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6df394fe1d0b870800000000000000
+      internalID: 8696681706108737208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_151
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 174
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7409711812fb4eb0800000000000000
+      internalID: -4734424398063664002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_152
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 75
+        width: 45
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04985ebe9893b550800000000000000
+      internalID: 6175447321620812812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_153
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 183
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d26d63390515130800000000000000
+      internalID: 3553710174182452605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_154
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 183
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6790cb5eb8a880e50800000000000000
+      internalID: 6775817972838304118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_155
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 75
+        width: 45
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fccfd2b6b4c2d6110800000000000000
+      internalID: 1255708573538581711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_156
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 183
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0db6d49bf3edc720800000000000000
+      internalID: 2868199207378271498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_157
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 183
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 626bacaadc0660eb0800000000000000
+      internalID: -4754005920193006042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_158
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 183
+        width: 68
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d72a2f170c511230800000000000000
+      internalID: 3607765962157860825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_159
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 30
+        width: 167
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c143705247463f0800000000000000
+      internalID: -908473522438529964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_160
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 107
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db11a57ed7691cbb0800000000000000
+      internalID: -4917483850615352899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_161
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 93
+        width: 59
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe3c3ce0c6fd1a90800000000000000
+      internalID: -7341440509086515458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_162
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 93
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e930e3f6433c9b80800000000000000
+      internalID: -8386772026238420506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_163
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 79
+        width: 45
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ca114f6460f75a0800000000000000
+      internalID: -6521486833596912507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_164
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 79
+        width: 45
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e747817f3e4cf91c0800000000000000
+      internalID: -4494657419710270338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_165
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 86
+        width: 16
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8865a2ea236e0e0800000000000000
+      internalID: -2241048040954230557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_166
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 86
+        width: 19
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cab4e5d06da5da20800000000000000
+      internalID: 3086563751049345732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_167
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 86
+        width: 17
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1613fd59b5b73a50800000000000000
+      internalID: 6500864394882389530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_168
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 86
+        width: 17
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c790b7823101700800000000000000
+      internalID: 508927822476704910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_169
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 86
+        width: 17
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ae260b9ea6eb580800000000000000
+      internalID: -8809486269170914753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_170
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 100
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03b5b158e3ed0f00800000000000000
+      internalID: 1084773672208937741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_171
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 41
+        width: 123
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4d00b0f8d75ac90800000000000000
+      internalID: -7159177979317136140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_172
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 123
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9115796adfb9ff80800000000000000
+      internalID: -8072209912291847780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dg2a_173
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 84
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad55871a5922d610800000000000000
+      internalID: 1644422280862064040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dg2a_0: 3558384313568116193
+      dg2a_1: 5457484869648711513
+      dg2a_10: 526152297819245195
+      dg2a_100: 5801340796990918349
+      dg2a_101: 6278273958771524068
+      dg2a_102: -1295490934458041139
+      dg2a_103: 8277279369110713670
+      dg2a_104: 5313101448651239125
+      dg2a_105: -6913755069222614319
+      dg2a_106: 8498303234100774939
+      dg2a_107: 5579678660958713214
+      dg2a_108: -5308334270104694939
+      dg2a_109: 6142476629921632663
+      dg2a_11: 3126275327121946598
+      dg2a_110: 4436688582676525990
+      dg2a_111: 4488745853614318494
+      dg2a_112: -6027080628839675843
+      dg2a_113: -6183168576184901131
+      dg2a_114: -2710975066036633354
+      dg2a_115: 7240661944044583036
+      dg2a_116: -3543452750963936742
+      dg2a_117: 2117367214288089159
+      dg2a_118: -1087308190080480649
+      dg2a_119: 8742588011640615427
+      dg2a_12: -3571347630678250676
+      dg2a_120: -2772597083638097310
+      dg2a_121: -8811595331606129454
+      dg2a_122: 2480597576295802675
+      dg2a_123: 3087208582325594461
+      dg2a_124: -249683729995650345
+      dg2a_125: -5268068836148023450
+      dg2a_126: -2864423195150603672
+      dg2a_127: 678461392170412772
+      dg2a_128: 1534876108080485417
+      dg2a_129: 5550043866434903541
+      dg2a_13: -7170669077062406127
+      dg2a_130: -5855880040065948746
+      dg2a_131: 4625111052906457175
+      dg2a_132: 4287274642727379156
+      dg2a_133: -8006060466850211368
+      dg2a_134: 5143507145496250369
+      dg2a_135: 5688312583372638361
+      dg2a_136: -8942358020267416369
+      dg2a_137: -4201729930211315821
+      dg2a_138: -949610279091838696
+      dg2a_139: -5454323556541623892
+      dg2a_14: -931224610194512921
+      dg2a_140: 4869773078890413805
+      dg2a_141: -6443007723360738966
+      dg2a_142: 8494516561142485604
+      dg2a_143: -6509141630563002510
+      dg2a_144: -1585812775228108967
+      dg2a_145: -8890768980143865328
+      dg2a_146: -2798730602211796082
+      dg2a_147: -9017818305669358242
+      dg2a_148: -3141463996862855812
+      dg2a_149: -7051587830264835877
+      dg2a_15: -4221604858744090883
+      dg2a_150: 8696681706108737208
+      dg2a_151: -4734424398063664002
+      dg2a_152: 6175447321620812812
+      dg2a_153: 3553710174182452605
+      dg2a_154: 6775817972838304118
+      dg2a_155: 1255708573538581711
+      dg2a_156: 2868199207378271498
+      dg2a_157: -4754005920193006042
+      dg2a_158: 3607765962157860825
+      dg2a_159: -908473522438529964
+      dg2a_16: -8398804713948031093
+      dg2a_160: -4917483850615352899
+      dg2a_161: -7341440509086515458
+      dg2a_162: -8386772026238420506
+      dg2a_163: -6521486833596912507
+      dg2a_164: -4494657419710270338
+      dg2a_165: -2241048040954230557
+      dg2a_166: 3086563751049345732
+      dg2a_167: 6500864394882389530
+      dg2a_168: 508927822476704910
+      dg2a_169: -8809486269170914753
+      dg2a_17: -5825591116618354221
+      dg2a_170: 1084773672208937741
+      dg2a_171: -7159177979317136140
+      dg2a_172: -8072209912291847780
+      dg2a_173: 1644422280862064040
+      dg2a_18: 7948395562822120480
+      dg2a_19: 6330702847976316864
+      dg2a_2: 4388220267304265290
+      dg2a_20: -7378151072594546708
+      dg2a_21: 5052644771375203270
+      dg2a_22: -8835206678682722004
+      dg2a_23: 7817274504587828484
+      dg2a_24: 5023665770678144558
+      dg2a_25: 745635749405294432
+      dg2a_26: -784496700588408299
+      dg2a_27: -9149120297514629323
+      dg2a_28: -6928450320763050434
+      dg2a_29: -9212498733911244050
+      dg2a_3: -1010427159222579529
+      dg2a_30: -6767843607477715823
+      dg2a_31: -1742779778210809088
+      dg2a_32: -8179667369039044271
+      dg2a_33: -2695326237125994586
+      dg2a_34: 6543607093851113869
+      dg2a_35: 902167880355303419
+      dg2a_36: -5963747280633757314
+      dg2a_37: -711567446794306334
+      dg2a_38: -1420038038249821154
+      dg2a_39: -320640988575173857
+      dg2a_4: 226493377377962735
+      dg2a_40: -1095598240808035672
+      dg2a_41: 1342087258754602937
+      dg2a_42: -1645190839477281435
+      dg2a_43: 8305312398288372819
+      dg2a_44: 6636338881443458504
+      dg2a_45: -8525896945863950365
+      dg2a_46: 6931655991482625643
+      dg2a_47: -2514487934163500683
+      dg2a_48: 3530851375962461438
+      dg2a_49: 2951383202314524509
+      dg2a_5: 3159699667189198919
+      dg2a_50: 276950123457929260
+      dg2a_51: 7811673379730409324
+      dg2a_52: 1195479411549646229
+      dg2a_53: -6311001403879298278
+      dg2a_54: 3801372233463504801
+      dg2a_55: -6811588670506970857
+      dg2a_56: 5475874575045589950
+      dg2a_57: -7912583486070606053
+      dg2a_58: -1667529017157386340
+      dg2a_59: -943473998078436892
+      dg2a_6: 4623501476168753517
+      dg2a_60: -5396344746078026647
+      dg2a_61: 2840725577769941935
+      dg2a_62: 5108974918416960011
+      dg2a_63: 6500924963473623008
+      dg2a_64: -8030723142580166184
+      dg2a_65: -7550345034264344247
+      dg2a_66: 7519837325594734194
+      dg2a_67: 718189385771121876
+      dg2a_68: 4341405508806971436
+      dg2a_69: -426993874286039821
+      dg2a_7: -4353060244606476122
+      dg2a_70: 6110025644239296971
+      dg2a_71: 6920726053720263448
+      dg2a_72: -4293673061664065305
+      dg2a_73: -5951849460417563567
+      dg2a_74: 1684630355911524954
+      dg2a_75: 2836220813033351879
+      dg2a_76: 5736624861650754415
+      dg2a_77: 490247673969682685
+      dg2a_78: 4712730871461029801
+      dg2a_79: 3116990487066021471
+      dg2a_8: -459162733809188075
+      dg2a_80: -6206730147072429171
+      dg2a_81: 8824812813409323114
+      dg2a_82: -5673485070769977829
+      dg2a_83: -6832068737432957863
+      dg2a_84: -1316167255374679124
+      dg2a_85: 2799392415441308116
+      dg2a_86: -5448491377607569897
+      dg2a_87: -1721161661260353404
+      dg2a_88: 8327420519673317049
+      dg2a_89: 1473829788438152715
+      dg2a_9: 3170801043340997165
+      dg2a_90: -514856165041557920
+      dg2a_91: 4969564776265132307
+      dg2a_92: 6136529480114111497
+      dg2a_93: -2515659008314819188
+      dg2a_94: 5757387326013145320
+      dg2a_95: -8979206843175929415
+      dg2a_96: 3183930310080614680
+      dg2a_97: 1523960073390359859
+      dg2a_98: -3248866516934350880
+      dg2a_99: -7654722345053597846
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

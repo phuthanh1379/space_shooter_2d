@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class PlayerShoot : MonoBehaviour
 {
+    [SerializeField] private Animator animator;
     [SerializeField] private Projectile projectile;
     [SerializeField] private Projectile secondaryProjectile;
 
@@ -68,6 +69,7 @@ public class PlayerShoot : MonoBehaviour
         bullet.transform.position = gunPoint.position;
         _bulletCount++;
         //Debug.LogError($"Shot Fired! Bullet count={_bulletCount}");
+        animator.SetTrigger("Fire");
 
         if (_bulletCount >= maxBullets)
         {

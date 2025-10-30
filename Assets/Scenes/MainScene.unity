@@ -1123,7 +1123,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &612717918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2630,7 +2630,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2047449784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2644,7 +2644,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RepeatMove
   speed: 0.3
-  destinations: []
+  destinations:
+  - {x: -11, y: 6.16, z: 0}
+  - {x: 11, y: 6.16, z: 0}
 --- !u!4 &2047449785
 Transform:
   m_ObjectHideFlags: 0
@@ -2686,11 +2688,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4527275867064853303, guid: 508cccf448735714dbdb0e23ea3dd60e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4527275867064853303, guid: 508cccf448735714dbdb0e23ea3dd60e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.7
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 4527275867064853303, guid: 508cccf448735714dbdb0e23ea3dd60e, type: 3}
       propertyPath: m_LocalPosition.z
