@@ -6,10 +6,7 @@ public class Player : MonoBehaviour
     [SerializeField] private int health;
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Animator animator;
-
-    private const string EnemyDamageTag = "EnemyDamage";
-    private const string EnemyTag = "Enemy";
-    private const string MeteorTag = "Meteor";
+    [SerializeField] private GameController gameController;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -23,6 +20,7 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
+        gameController.health = health;
         if (Input.GetKeyDown(KeyCode.Space))
         {
             animator.SetBool("IsDead", false);

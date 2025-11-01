@@ -1,0 +1,3340 @@
+fileFormatVersion: 2
+guid: 44dfdaa674d931241af4b98d4233a9f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -747706872668924432
+    second: muzzle_1_0
+  - first:
+      213: 207048964220743635
+    second: muzzle_1_1
+  - first:
+      213: -7914508981431123957
+    second: muzzle_1_2
+  - first:
+      213: -5711992634058452177
+    second: muzzle_1_3
+  - first:
+      213: 7605595551631567910
+    second: muzzle_1_4
+  - first:
+      213: 4890660246996702079
+    second: muzzle_1_5
+  - first:
+      213: -4401754854308959119
+    second: muzzle_1_6
+  - first:
+      213: 3620965610521058840
+    second: muzzle_1_7
+  - first:
+      213: 4183333174191586244
+    second: muzzle_1_8
+  - first:
+      213: 954655448981435387
+    second: muzzle_1_9
+  - first:
+      213: 1399447989979863346
+    second: muzzle_1_10
+  - first:
+      213: 1012724078578421190
+    second: muzzle_1_11
+  - first:
+      213: 4998072008790455883
+    second: muzzle_1_12
+  - first:
+      213: -4816894945919278091
+    second: muzzle_1_13
+  - first:
+      213: 5039911467859880635
+    second: muzzle_1_14
+  - first:
+      213: 8533343716464536271
+    second: muzzle_1_15
+  - first:
+      213: 3095995696723747261
+    second: muzzle_1_16
+  - first:
+      213: 8795345758903095927
+    second: muzzle_1_17
+  - first:
+      213: -3643839775825779864
+    second: muzzle_1_18
+  - first:
+      213: 2115653830292806003
+    second: muzzle_1_19
+  - first:
+      213: -7257193243770645300
+    second: muzzle_1_20
+  - first:
+      213: 6751687836880847912
+    second: muzzle_1_21
+  - first:
+      213: -7588229281570682780
+    second: muzzle_1_22
+  - first:
+      213: -4582941241088599673
+    second: muzzle_1_23
+  - first:
+      213: 4449221444161311569
+    second: muzzle_1_24
+  - first:
+      213: 7872809307659363005
+    second: muzzle_1_25
+  - first:
+      213: 5558682427622247575
+    second: muzzle_1_26
+  - first:
+      213: -6454484925892456550
+    second: muzzle_1_27
+  - first:
+      213: -52620922248861413
+    second: muzzle_1_28
+  - first:
+      213: 815396452749957342
+    second: muzzle_1_29
+  - first:
+      213: 6825527715039321920
+    second: muzzle_1_30
+  - first:
+      213: 6098768069367047280
+    second: muzzle_1_31
+  - first:
+      213: -2651943622327059452
+    second: muzzle_1_32
+  - first:
+      213: -4782427790117988398
+    second: muzzle_1_33
+  - first:
+      213: -2858901931192750644
+    second: muzzle_1_34
+  - first:
+      213: -36238075211435018
+    second: muzzle_1_35
+  - first:
+      213: -128002819500051914
+    second: muzzle_1_36
+  - first:
+      213: 1215851710947706374
+    second: muzzle_1_37
+  - first:
+      213: -1786750563873440503
+    second: muzzle_1_38
+  - first:
+      213: 4073341748905365848
+    second: muzzle_1_39
+  - first:
+      213: -2274231055045356096
+    second: muzzle_1_40
+  - first:
+      213: -5791973867848232100
+    second: muzzle_1_41
+  - first:
+      213: -6550782014665001970
+    second: muzzle_1_42
+  - first:
+      213: 9093681607058059142
+    second: muzzle_1_43
+  - first:
+      213: -841132785682282623
+    second: muzzle_1_44
+  - first:
+      213: -6848536598900671871
+    second: muzzle_1_45
+  - first:
+      213: -8808111207673760732
+    second: muzzle_1_46
+  - first:
+      213: 3555766411871958524
+    second: muzzle_1_47
+  - first:
+      213: 5814761530109957177
+    second: muzzle_1_48
+  - first:
+      213: -3606825033424068524
+    second: muzzle_1_49
+  - first:
+      213: 8484315180879322085
+    second: muzzle_1_50
+  - first:
+      213: 3951449894821188721
+    second: muzzle_1_51
+  - first:
+      213: -9046589575983702845
+    second: muzzle_1_52
+  - first:
+      213: -3342797963525454856
+    second: muzzle_1_53
+  - first:
+      213: -443199768334444754
+    second: muzzle_1_54
+  - first:
+      213: -5768142455840643254
+    second: muzzle_1_55
+  - first:
+      213: 4921174113190092380
+    second: muzzle_1_56
+  - first:
+      213: -1238852901403061045
+    second: muzzle_1_57
+  - first:
+      213: -7735928563844714213
+    second: muzzle_1_58
+  - first:
+      213: -322228442666861195
+    second: muzzle_1_59
+  - first:
+      213: -8635691549007952156
+    second: muzzle_1_60
+  - first:
+      213: 1047283516727447573
+    second: muzzle_1_61
+  - first:
+      213: -7283728306533226664
+    second: muzzle_1_62
+  - first:
+      213: -5012191475741581839
+    second: muzzle_1_63
+  - first:
+      213: -4112345969155616066
+    second: muzzle_1_64
+  - first:
+      213: -8179959125574362686
+    second: muzzle_1_65
+  - first:
+      213: 5451655198220221859
+    second: muzzle_1_66
+  - first:
+      213: -7578009894485126896
+    second: muzzle_1_67
+  - first:
+      213: -6610696984223631081
+    second: muzzle_1_68
+  - first:
+      213: 5292210131385607614
+    second: muzzle_1_69
+  - first:
+      213: 8003799176168775134
+    second: muzzle_1_70
+  - first:
+      213: 6952137978903685224
+    second: muzzle_1_71
+  - first:
+      213: -5733245329205317087
+    second: muzzle_1_72
+  - first:
+      213: 32674912570523187
+    second: muzzle_1_73
+  - first:
+      213: 2230411305321184873
+    second: muzzle_1_74
+  - first:
+      213: 8066952709789439114
+    second: muzzle_1_75
+  - first:
+      213: 5106181249827678160
+    second: muzzle_1_76
+  - first:
+      213: -6337672188992897157
+    second: muzzle_1_77
+  - first:
+      213: 6550940275927963217
+    second: muzzle_1_78
+  - first:
+      213: 6331670057423068843
+    second: muzzle_1_79
+  - first:
+      213: 9186547157785041188
+    second: muzzle_1_80
+  - first:
+      213: 2052628699951301843
+    second: muzzle_1_81
+  - first:
+      213: 1924591746070695265
+    second: muzzle_1_82
+  - first:
+      213: -306790212656180289
+    second: muzzle_1_83
+  - first:
+      213: -538518442122393765
+    second: muzzle_1_84
+  - first:
+      213: 202753900256498451
+    second: muzzle_1_85
+  - first:
+      213: -5832133844219849454
+    second: muzzle_1_86
+  - first:
+      213: 8452259654221546995
+    second: muzzle_1_87
+  - first:
+      213: 8390332701342310264
+    second: muzzle_1_88
+  - first:
+      213: -7747794686531488709
+    second: muzzle_1_89
+  - first:
+      213: -2540750795817209608
+    second: muzzle_1_90
+  - first:
+      213: 3740402291355465893
+    second: muzzle_1_91
+  - first:
+      213: 6871604142407586699
+    second: muzzle_1_92
+  - first:
+      213: 4579106877967969075
+    second: muzzle_1_93
+  - first:
+      213: 6150196300312785854
+    second: muzzle_1_94
+  - first:
+      213: 9126129632504584067
+    second: muzzle_1_95
+  - first:
+      213: -3234107483213029960
+    second: muzzle_1_96
+  - first:
+      213: -4332549773862776733
+    second: muzzle_1_97
+  - first:
+      213: 8387909251115080039
+    second: muzzle_1_98
+  - first:
+      213: -3820266723904969799
+    second: muzzle_1_99
+  - first:
+      213: -5166526001188909396
+    second: muzzle_1_100
+  - first:
+      213: 7056146379780258305
+    second: muzzle_1_101
+  - first:
+      213: 8283830692835737359
+    second: muzzle_1_102
+  - first:
+      213: 1505465387373071025
+    second: muzzle_1_103
+  - first:
+      213: 4129077789815725900
+    second: muzzle_1_104
+  - first:
+      213: 2212121520471014032
+    second: muzzle_1_105
+  - first:
+      213: 2211729778650789065
+    second: muzzle_1_106
+  - first:
+      213: -1106863713802898885
+    second: muzzle_1_107
+  - first:
+      213: 1989538615303969157
+    second: muzzle_1_108
+  - first:
+      213: 1430273990435022169
+    second: muzzle_1_109
+  - first:
+      213: -1098977494676863505
+    second: muzzle_1_110
+  - first:
+      213: 7521722935020778559
+    second: muzzle_1_111
+  - first:
+      213: -7285948647953681237
+    second: muzzle_1_112
+  - first:
+      213: -6604292688732967735
+    second: muzzle_1_113
+  - first:
+      213: -319006369541382889
+    second: muzzle_1_114
+  - first:
+      213: 4574403022656032617
+    second: muzzle_1_115
+  - first:
+      213: 8745646445426453423
+    second: muzzle_1_116
+  - first:
+      213: -3473302662799418717
+    second: muzzle_1_117
+  - first:
+      213: 8779529817526348139
+    second: muzzle_1_118
+  - first:
+      213: -7570503507627918423
+    second: muzzle_1_119
+  - first:
+      213: 3769331179192033622
+    second: muzzle_1_120
+  - first:
+      213: -4087719347263229305
+    second: muzzle_1_121
+  - first:
+      213: -3157106201831347453
+    second: muzzle_1_122
+  - first:
+      213: -4756462720073507758
+    second: muzzle_1_123
+  - first:
+      213: -3634628561749093587
+    second: muzzle_1_124
+  - first:
+      213: -782850754520050612
+    second: muzzle_1_125
+  - first:
+      213: -1313926388233720662
+    second: muzzle_1_126
+  - first:
+      213: 4317235392779799915
+    second: muzzle_1_127
+  - first:
+      213: 1842058837617091596
+    second: muzzle_1_128
+  - first:
+      213: -5310421599302847518
+    second: muzzle_1_129
+  - first:
+      213: -3717855001668767162
+    second: muzzle_1_130
+  - first:
+      213: -4891100287007341504
+    second: muzzle_1_131
+  - first:
+      213: 636196859963261969
+    second: muzzle_1_132
+  - first:
+      213: 6793522385040323488
+    second: muzzle_1_133
+  - first:
+      213: 3810784150821335530
+    second: muzzle_1_134
+  - first:
+      213: 5202892862098296249
+    second: muzzle_1_135
+  - first:
+      213: -7450174129172549325
+    second: muzzle_1_136
+  - first:
+      213: -328781106873034449
+    second: muzzle_1_137
+  - first:
+      213: -6426023274347151941
+    second: muzzle_1_138
+  - first:
+      213: -2627299144498357759
+    second: muzzle_1_139
+  - first:
+      213: -2091473006347861552
+    second: muzzle_1_140
+  - first:
+      213: 1510020169764559215
+    second: muzzle_1_141
+  - first:
+      213: 5064477374236391733
+    second: muzzle_1_142
+  - first:
+      213: 6063959403741453781
+    second: muzzle_1_143
+  - first:
+      213: 5210006721520247073
+    second: muzzle_1_144
+  - first:
+      213: -4725471831084876325
+    second: muzzle_1_145
+  - first:
+      213: -5200501504471291615
+    second: muzzle_1_146
+  - first:
+      213: -3812624676177538739
+    second: muzzle_1_147
+  - first:
+      213: -6418287245105130156
+    second: muzzle_1_148
+  - first:
+      213: 2175043186499030768
+    second: muzzle_1_149
+  - first:
+      213: -1537754620708485711
+    second: muzzle_1_150
+  - first:
+      213: -2684690753794889193
+    second: muzzle_1_151
+  - first:
+      213: -7144760066964887181
+    second: muzzle_1_152
+  - first:
+      213: -2570829060870582114
+    second: muzzle_1_153
+  - first:
+      213: 8537821866084015234
+    second: muzzle_1_154
+  - first:
+      213: 6319937151079535339
+    second: muzzle_1_155
+  - first:
+      213: 2791046698539906400
+    second: muzzle_1_156
+  - first:
+      213: 4800812784204854904
+    second: muzzle_1_157
+  - first:
+      213: 7256626592597395074
+    second: muzzle_1_158
+  - first:
+      213: 1196025691212979081
+    second: muzzle_1_159
+  - first:
+      213: -722891946058220230
+    second: muzzle_1_160
+  - first:
+      213: -7644054111150235857
+    second: muzzle_1_161
+  - first:
+      213: -2765421844157475842
+    second: muzzle_1_162
+  - first:
+      213: 1895057757364521734
+    second: muzzle_1_163
+  - first:
+      213: 210180434352483001
+    second: muzzle_1_164
+  - first:
+      213: -3298393501617121570
+    second: muzzle_1_165
+  - first:
+      213: -1304569775114681467
+    second: muzzle_1_166
+  - first:
+      213: 2496300386422195647
+    second: muzzle_1_167
+  - first:
+      213: -6498443781030538156
+    second: muzzle_1_168
+  - first:
+      213: -4963158479087221467
+    second: muzzle_1_169
+  - first:
+      213: -1947624963616934517
+    second: muzzle_1_170
+  - first:
+      213: -3654909088646416333
+    second: muzzle_1_171
+  - first:
+      213: 8679567934133450610
+    second: muzzle_1_172
+  - first:
+      213: 1536666043583312689
+    second: muzzle_1_173
+  - first:
+      213: 5725745907712252589
+    second: muzzle_1_174
+  - first:
+      213: -777249822216808162
+    second: muzzle_1_175
+  - first:
+      213: -1152667779624279293
+    second: muzzle_1_176
+  - first:
+      213: 3823638236999778615
+    second: muzzle_1_177
+  - first:
+      213: -6159428739091289966
+    second: muzzle_1_178
+  - first:
+      213: -4188553135928294058
+    second: muzzle_1_179
+  - first:
+      213: -3169682224192234690
+    second: muzzle_1_180
+  - first:
+      213: -4516180403829835251
+    second: muzzle_1_181
+  - first:
+      213: 6723942094975552805
+    second: muzzle_1_182
+  - first:
+      213: -3757245369031837991
+    second: muzzle_1_183
+  - first:
+      213: -3904534894936254753
+    second: muzzle_1_184
+  - first:
+      213: -4407718918733478667
+    second: muzzle_1_185
+  - first:
+      213: -4681894002847007761
+    second: muzzle_1_186
+  - first:
+      213: -2732043652748821347
+    second: muzzle_1_187
+  - first:
+      213: 4685323348551947538
+    second: muzzle_1_188
+  - first:
+      213: 2120097785680573522
+    second: muzzle_1_189
+  - first:
+      213: 9180729776768339622
+    second: muzzle_1_190
+  - first:
+      213: -1131612832194988857
+    second: muzzle_1_191
+  - first:
+      213: 1649145815327528466
+    second: muzzle_1_192
+  - first:
+      213: -7798156146902359099
+    second: muzzle_1_193
+  - first:
+      213: -2285123906319839240
+    second: muzzle_1_194
+  - first:
+      213: -1281310880667449317
+    second: muzzle_1_195
+  - first:
+      213: -4530587205971492311
+    second: muzzle_1_196
+  - first:
+      213: -7878623603285653836
+    second: muzzle_1_197
+  - first:
+      213: -3103815237578260859
+    second: muzzle_1_198
+  - first:
+      213: 6224700528283275279
+    second: muzzle_1_199
+  - first:
+      213: 8527284144214902706
+    second: muzzle_1_200
+  - first:
+      213: 4955412076900157840
+    second: muzzle_1_201
+  - first:
+      213: -1101023292346517743
+    second: muzzle_1_202
+  - first:
+      213: -3106287919354302914
+    second: muzzle_1_203
+  - first:
+      213: -4077549245398645683
+    second: muzzle_1_204
+  - first:
+      213: -7155962238158121871
+    second: muzzle_1_205
+  - first:
+      213: -4765279449742138442
+    second: muzzle_1_206
+  - first:
+      213: -3064660944429603522
+    second: muzzle_1_207
+  - first:
+      213: 2924202420946560756
+    second: muzzle_1_208
+  - first:
+      213: 2313840213205934258
+    second: muzzle_1_209
+  - first:
+      213: 2708545514855143795
+    second: muzzle_1_210
+  - first:
+      213: -4303420457927017766
+    second: muzzle_1_211
+  - first:
+      213: -7067005495450155018
+    second: muzzle_1_212
+  - first:
+      213: 8213384920412465504
+    second: muzzle_1_213
+  - first:
+      213: 2063374437755188379
+    second: muzzle_1_214
+  - first:
+      213: 1547680321517626006
+    second: muzzle_1_215
+  - first:
+      213: -995358905124333725
+    second: muzzle_1_216
+  - first:
+      213: -5459578084830508726
+    second: muzzle_1_217
+  - first:
+      213: -4679132745056758986
+    second: muzzle_1_218
+  - first:
+      213: -1408352022741756873
+    second: muzzle_1_219
+  - first:
+      213: 1129880878812859619
+    second: muzzle_1_220
+  - first:
+      213: 2666139938336987305
+    second: muzzle_1_221
+  - first:
+      213: -450262601497537938
+    second: muzzle_1_222
+  - first:
+      213: 4934881552935290741
+    second: muzzle_1_223
+  - first:
+      213: -7510561990899043973
+    second: muzzle_1_224
+  - first:
+      213: 7233607667142581273
+    second: muzzle_1_225
+  - first:
+      213: 8525375967041851626
+    second: muzzle_1_226
+  - first:
+      213: -9051429945130580039
+    second: muzzle_1_227
+  - first:
+      213: 1244839434707107585
+    second: muzzle_1_228
+  - first:
+      213: 8411319212391893670
+    second: muzzle_1_229
+  - first:
+      213: -4511647074687052995
+    second: muzzle_1_230
+  - first:
+      213: 7216683548437148952
+    second: muzzle_1_231
+  - first:
+      213: 986930740162250839
+    second: muzzle_1_232
+  - first:
+      213: -3927849086337574025
+    second: muzzle_1_233
+  - first:
+      213: -6135421058245088516
+    second: muzzle_1_234
+  - first:
+      213: 7810022964062733642
+    second: muzzle_1_235
+  - first:
+      213: -1187091418074696195
+    second: muzzle_1_236
+  - first:
+      213: -5587478372481419553
+    second: muzzle_1_237
+  - first:
+      213: 5297327045225418087
+    second: muzzle_1_238
+  - first:
+      213: -7936636012374034201
+    second: muzzle_1_239
+  - first:
+      213: 3501633025508671454
+    second: muzzle_1_240
+  - first:
+      213: -8337492059270750251
+    second: muzzle_1_241
+  - first:
+      213: -4435423288998644382
+    second: muzzle_1_242
+  - first:
+      213: -4997932888968456427
+    second: muzzle_1_243
+  - first:
+      213: 6463753675846192198
+    second: muzzle_1_244
+  - first:
+      213: -5327145330875488381
+    second: muzzle_1_245
+  - first:
+      213: -986209665079093119
+    second: muzzle_1_246
+  - first:
+      213: 2879900484774012787
+    second: muzzle_1_247
+  - first:
+      213: 5512448550356289274
+    second: muzzle_1_248
+  - first:
+      213: -7787845505453430272
+    second: muzzle_1_249
+  - first:
+      213: 8507275546654321001
+    second: muzzle_1_250
+  - first:
+      213: -185551915069843878
+    second: muzzle_1_251
+  - first:
+      213: -2286117345065622030
+    second: muzzle_1_252
+  - first:
+      213: 7825644183430012597
+    second: muzzle_1_253
+  - first:
+      213: -3612931536302618676
+    second: muzzle_1_254
+  - first:
+      213: 5298494749158639152
+    second: muzzle_1_255
+  - first:
+      213: 1210832365743097839
+    second: muzzle_1_256
+  - first:
+      213: 6820295737774598083
+    second: muzzle_1_257
+  - first:
+      213: 2396827371647099684
+    second: muzzle_1_258
+  - first:
+      213: 3638056434225456451
+    second: muzzle_1_259
+  - first:
+      213: 4232806753581058584
+    second: muzzle_1_260
+  - first:
+      213: 9119846554985471253
+    second: muzzle_1_261
+  - first:
+      213: 4933694114536400159
+    second: muzzle_1_262
+  - first:
+      213: -2725364174247193389
+    second: muzzle_1_263
+  - first:
+      213: -1212998685739817270
+    second: muzzle_1_264
+  - first:
+      213: 559512552164930741
+    second: muzzle_1_265
+  - first:
+      213: -6618560455993719857
+    second: muzzle_1_266
+  - first:
+      213: 5773183486267135519
+    second: muzzle_1_267
+  - first:
+      213: -3291672911023565790
+    second: muzzle_1_268
+  - first:
+      213: 5593707697795202473
+    second: muzzle_1_269
+  - first:
+      213: -3977858373202270693
+    second: muzzle_1_270
+  - first:
+      213: 5972767916815346344
+    second: muzzle_1_271
+  - first:
+      213: 1654994666625688103
+    second: muzzle_1_272
+  - first:
+      213: -2233245727131884440
+    second: muzzle_1_273
+  - first:
+      213: 7584884300224119425
+    second: muzzle_1_274
+  - first:
+      213: -581650735297635083
+    second: muzzle_1_275
+  - first:
+      213: -3544661834082610398
+    second: muzzle_1_276
+  - first:
+      213: 1105152063015377969
+    second: muzzle_1_277
+  - first:
+      213: -2908606647754469961
+    second: muzzle_1_278
+  - first:
+      213: -9159202432842096216
+    second: muzzle_1_279
+  - first:
+      213: -7057051325408570103
+    second: muzzle_1_280
+  - first:
+      213: 1660466504318160630
+    second: muzzle_1_281
+  - first:
+      213: -6925389083667932826
+    second: muzzle_1_282
+  - first:
+      213: 4925442628459697054
+    second: muzzle_1_283
+  - first:
+      213: 8302347354952371322
+    second: muzzle_1_284
+  - first:
+      213: 8367868659716145177
+    second: muzzle_1_285
+  - first:
+      213: 2639282902355667475
+    second: muzzle_1_286
+  - first:
+      213: -155141620072778246
+    second: muzzle_1_287
+  - first:
+      213: 6105764765437842784
+    second: muzzle_1_288
+  - first:
+      213: -7802192243550452418
+    second: muzzle_1_289
+  - first:
+      213: -1370983522160885301
+    second: muzzle_1_290
+  - first:
+      213: -3306789019728935227
+    second: muzzle_1_291
+  - first:
+      213: 8463358150257166049
+    second: muzzle_1_292
+  - first:
+      213: -5288787397823072573
+    second: muzzle_1_293
+  - first:
+      213: -712498339362852224
+    second: muzzle_1_294
+  - first:
+      213: -5825803781827599342
+    second: muzzle_1_295
+  - first:
+      213: -7252599397014117015
+    second: muzzle_1_296
+  - first:
+      213: 7390621133077658468
+    second: muzzle_1_297
+  - first:
+      213: -1888248857233399248
+    second: muzzle_1_298
+  - first:
+      213: -6572895678081089734
+    second: muzzle_1_299
+  - first:
+      213: 4209079794428764457
+    second: muzzle_1_300
+  - first:
+      213: 8691617604421846832
+    second: muzzle_1_301
+  - first:
+      213: 3497775492637670825
+    second: muzzle_1_302
+  - first:
+      213: 8122725169986188988
+    second: muzzle_1_303
+  - first:
+      213: -835493470743503504
+    second: muzzle_1_304
+  - first:
+      213: 7543108192143274885
+    second: muzzle_1_305
+  - first:
+      213: -4556522354943819937
+    second: muzzle_1_306
+  - first:
+      213: -1492630167390533245
+    second: muzzle_1_307
+  - first:
+      213: 8617818584639610282
+    second: muzzle_1_308
+  - first:
+      213: -7541196155737500472
+    second: muzzle_1_309
+  - first:
+      213: -8257483156313573524
+    second: muzzle_1_310
+  - first:
+      213: 7706607769388860801
+    second: muzzle_1_311
+  - first:
+      213: 6640314716189904683
+    second: muzzle_1_312
+  - first:
+      213: -8388467448638369757
+    second: muzzle_1_313
+  - first:
+      213: 6052447809095279341
+    second: muzzle_1_314
+  - first:
+      213: 2259497054057912220
+    second: muzzle_1_315
+  - first:
+      213: 469972165556050620
+    second: muzzle_1_316
+  - first:
+      213: -5892767346496510578
+    second: muzzle_1_317
+  - first:
+      213: 5453001572955520568
+    second: muzzle_1_318
+  - first:
+      213: -7163089409016906999
+    second: muzzle_1_319
+  - first:
+      213: -6331193950311830177
+    second: muzzle_1_320
+  - first:
+      213: 1317811285370487391
+    second: muzzle_1_321
+  - first:
+      213: -4750460004576436631
+    second: muzzle_1_322
+  - first:
+      213: 2961274826942700178
+    second: muzzle_1_323
+  - first:
+      213: -6375092713057479724
+    second: muzzle_1_324
+  - first:
+      213: 73698307203453944
+    second: muzzle_1_325
+  - first:
+      213: -2330571346800307219
+    second: muzzle_1_326
+  - first:
+      213: -2136124876441263272
+    second: muzzle_1_327
+  - first:
+      213: 3161409591381553922
+    second: muzzle_1_328
+  - first:
+      213: 7266332509084954871
+    second: muzzle_1_329
+  - first:
+      213: -3015016174827727719
+    second: muzzle_1_330
+  - first:
+      213: -919165265367601302
+    second: muzzle_1_331
+  - first:
+      213: 1988741283129157768
+    second: muzzle_1_332
+  - first:
+      213: 2831230551694656117
+    second: muzzle_1_333
+  - first:
+      213: 3516848874758786312
+    second: muzzle_1_334
+  - first:
+      213: -1874266770902724823
+    second: muzzle_1_335
+  - first:
+      213: 7953843334112755191
+    second: muzzle_1_336
+  - first:
+      213: 910283004744777203
+    second: muzzle_1_337
+  - first:
+      213: -3458884738198717219
+    second: muzzle_1_338
+  - first:
+      213: 1335636067146084258
+    second: muzzle_1_339
+  - first:
+      213: 1993680470822011895
+    second: muzzle_1_340
+  - first:
+      213: 3286094857164434461
+    second: muzzle_1_341
+  - first:
+      213: -3450380053568148548
+    second: muzzle_1_342
+  - first:
+      213: 4557605748294145558
+    second: muzzle_1_343
+  - first:
+      213: -2980141052281949532
+    second: muzzle_1_344
+  - first:
+      213: -4947714373061656652
+    second: muzzle_1_345
+  - first:
+      213: 5808405496923616964
+    second: muzzle_1_346
+  - first:
+      213: -2900781602677277638
+    second: muzzle_1_347
+  - first:
+      213: 2320112779571108469
+    second: muzzle_1_348
+  - first:
+      213: 6043297835331523948
+    second: muzzle_1_349
+  - first:
+      213: -5858373519439862239
+    second: muzzle_1_350
+  - first:
+      213: -6496639117262361366
+    second: muzzle_1_351
+  - first:
+      213: -5155014889569476642
+    second: muzzle_1_352
+  - first:
+      213: 81790709944867078
+    second: muzzle_1_353
+  - first:
+      213: 4694535892570698216
+    second: muzzle_1_354
+  - first:
+      213: -4445104934326582289
+    second: muzzle_1_355
+  - first:
+      213: 8589276061995019942
+    second: muzzle_1_356
+  - first:
+      213: 3238528740393700897
+    second: muzzle_1_357
+  - first:
+      213: 355616751167843117
+    second: muzzle_1_358
+  - first:
+      213: 2208943278523902745
+    second: muzzle_1_359
+  - first:
+      213: -4498632235764288994
+    second: muzzle_1_360
+  - first:
+      213: 933877762927476976
+    second: muzzle_1_361
+  - first:
+      213: 9072881563358056569
+    second: muzzle_1_362
+  - first:
+      213: 6555976775098527570
+    second: muzzle_1_363
+  - first:
+      213: 1402741751209749767
+    second: muzzle_1_364
+  - first:
+      213: 7858052255660083635
+    second: muzzle_1_365
+  - first:
+      213: 6283625285125827292
+    second: muzzle_1_366
+  - first:
+      213: 7775809303027864853
+    second: muzzle_1_367
+  - first:
+      213: 6979001019031571631
+    second: muzzle_1_368
+  - first:
+      213: -405827634909520342
+    second: muzzle_1_369
+  - first:
+      213: -9132282863407108786
+    second: muzzle_1_370
+  - first:
+      213: -2004143096578790346
+    second: muzzle_1_371
+  - first:
+      213: 4095318406931481033
+    second: muzzle_1_372
+  - first:
+      213: -1428205160805981046
+    second: muzzle_1_373
+  - first:
+      213: 2726048906591184116
+    second: muzzle_1_374
+  - first:
+      213: -1544638179703271053
+    second: muzzle_1_375
+  - first:
+      213: 4966337986850062772
+    second: muzzle_1_376
+  - first:
+      213: 5839644933920396507
+    second: muzzle_1_377
+  - first:
+      213: -6559194174519928479
+    second: muzzle_1_378
+  - first:
+      213: 6564245098060221388
+    second: muzzle_1_379
+  - first:
+      213: 8425359894676850691
+    second: muzzle_1_380
+  - first:
+      213: -4119621234417298549
+    second: muzzle_1_381
+  - first:
+      213: 723371372206627691
+    second: muzzle_1_382
+  - first:
+      213: 5720412770512426942
+    second: muzzle_1_383
+  - first:
+      213: 503676887121853303
+    second: muzzle_1_384
+  - first:
+      213: -285228043793694449
+    second: muzzle_1_385
+  - first:
+      213: 1257844539968799104
+    second: muzzle_1_386
+  - first:
+      213: 4187649816964168540
+    second: muzzle_1_387
+  - first:
+      213: -3800040643785967002
+    second: muzzle_1_388
+  - first:
+      213: -78030737183294654
+    second: muzzle_1_389
+  - first:
+      213: -8286958897708682565
+    second: muzzle_1_390
+  - first:
+      213: -5845716164453480910
+    second: muzzle_1_391
+  - first:
+      213: 9153853193100279577
+    second: muzzle_1_392
+  - first:
+      213: -3862491919586114353
+    second: muzzle_1_393
+  - first:
+      213: -5705488850019741936
+    second: muzzle_1_394
+  - first:
+      213: 8724397791441993646
+    second: muzzle_1_395
+  - first:
+      213: -3734601071507913012
+    second: muzzle_1_396
+  - first:
+      213: -692914763684049435
+    second: muzzle_1_397
+  - first:
+      213: 6055766884139624411
+    second: muzzle_1_398
+  - first:
+      213: 2610005234923666547
+    second: muzzle_1_399
+  - first:
+      213: -8458166239432538934
+    second: muzzle_1_400
+  - first:
+      213: 7086705075488076233
+    second: muzzle_1_401
+  - first:
+      213: -7805395836517756794
+    second: muzzle_1_402
+  - first:
+      213: -541340296470168697
+    second: muzzle_1_403
+  - first:
+      213: -3648097493665966
+    second: muzzle_1_404
+  - first:
+      213: 436646138373556098
+    second: muzzle_1_405
+  - first:
+      213: -6239922224563542350
+    second: muzzle_1_406
+  - first:
+      213: -3852595159576575771
+    second: muzzle_1_407
+  - first:
+      213: 5175820076863125553
+    second: muzzle_1_408
+  - first:
+      213: -8623346193324801733
+    second: muzzle_1_409
+  - first:
+      213: 1124314750303015779
+    second: muzzle_1_410
+  - first:
+      213: 1537760365933884631
+    second: muzzle_1_411
+  - first:
+      213: -2987589554583217768
+    second: muzzle_1_412
+  - first:
+      213: 9006646531494513208
+    second: muzzle_1_413
+  - first:
+      213: 2723124586551456817
+    second: muzzle_1_414
+  - first:
+      213: 4332512727604853731
+    second: muzzle_1_415
+  - first:
+      213: -2529456041105719467
+    second: muzzle_1_416
+  - first:
+      213: 3893216902741468124
+    second: muzzle_1_417
+  - first:
+      213: 7920914547211747449
+    second: muzzle_1_418
+  - first:
+      213: 6738232243212847357
+    second: muzzle_1_419
+  - first:
+      213: 8372907352623943018
+    second: muzzle_1_420
+  - first:
+      213: -4311240597049300000
+    second: muzzle_1_421
+  - first:
+      213: -3249763498979105823
+    second: muzzle_1_422
+  - first:
+      213: 9055082363411258855
+    second: muzzle_1_423
+  - first:
+      213: 5080174503048654612
+    second: muzzle_1_424
+  - first:
+      213: 7076650065780446332
+    second: muzzle_1_425
+  - first:
+      213: 3015200423683828562
+    second: muzzle_1_426
+  - first:
+      213: 6830463755424039599
+    second: muzzle_1_427
+  - first:
+      213: -2756209048180247461
+    second: muzzle_1_428
+  - first:
+      213: -8024316203024418574
+    second: muzzle_1_429
+  - first:
+      213: -8205219550354051570
+    second: muzzle_1_430
+  - first:
+      213: -6865137217052775140
+    second: muzzle_1_431
+  - first:
+      213: 4249064800869201413
+    second: muzzle_1_432
+  - first:
+      213: -5742916180470679109
+    second: muzzle_1_433
+  - first:
+      213: -3464192251460452963
+    second: muzzle_1_434
+  - first:
+      213: -548017707624495351
+    second: muzzle_1_435
+  - first:
+      213: -6141774312476816255
+    second: muzzle_1_436
+  - first:
+      213: 8049699473957687059
+    second: muzzle_1_437
+  - first:
+      213: -6705767966376908880
+    second: muzzle_1_438
+  - first:
+      213: 8752854570750636375
+    second: muzzle_1_439
+  - first:
+      213: 9059334436560685134
+    second: muzzle_1_440
+  - first:
+      213: 6824434798065318552
+    second: muzzle_1_441
+  - first:
+      213: 1882445471841254099
+    second: muzzle_1_442
+  - first:
+      213: -8719596980412868057
+    second: muzzle_1_443
+  - first:
+      213: -5836536828858914379
+    second: muzzle_1_444
+  - first:
+      213: -7121495497086575258
+    second: muzzle_1_445
+  - first:
+      213: 8646719707356336949
+    second: muzzle_1_446
+  - first:
+      213: 5228462763949307806
+    second: muzzle_1_447
+  - first:
+      213: -5807041465835240703
+    second: muzzle_1_448
+  - first:
+      213: 3527755749431917393
+    second: muzzle_1_449
+  - first:
+      213: -873664484009482784
+    second: muzzle_1_450
+  - first:
+      213: 6714607649882464250
+    second: muzzle_1_451
+  - first:
+      213: -4572939253342446622
+    second: muzzle_1_452
+  - first:
+      213: -5672182550153858687
+    second: muzzle_1_453
+  - first:
+      213: 6676647280358442438
+    second: muzzle_1_454
+  - first:
+      213: -4804146105250115788
+    second: muzzle_1_455
+  - first:
+      213: -4359811303387420857
+    second: muzzle_1_456
+  - first:
+      213: -6686073592952220636
+    second: muzzle_1_457
+  - first:
+      213: -7894805954354569081
+    second: muzzle_1_458
+  - first:
+      213: -367713817758050068
+    second: muzzle_1_459
+  - first:
+      213: 346239484892252408
+    second: muzzle_1_460
+  - first:
+      213: 1447922664785577466
+    second: muzzle_1_461
+  - first:
+      213: -2020670134503094237
+    second: muzzle_1_462
+  - first:
+      213: 1997585814744059745
+    second: muzzle_1_463
+  - first:
+      213: 972671063326553660
+    second: muzzle_1_464
+  - first:
+      213: -3553042277131715289
+    second: muzzle_1_465
+  - first:
+      213: 4814298916604700288
+    second: muzzle_1_466
+  - first:
+      213: 8254755999837804100
+    second: muzzle_1_467
+  - first:
+      213: 4333059713909365150
+    second: muzzle_1_468
+  - first:
+      213: -7045283585726794446
+    second: muzzle_1_469
+  - first:
+      213: 8798885517816460026
+    second: muzzle_1_470
+  - first:
+      213: -434114869561878673
+    second: muzzle_1_471
+  - first:
+      213: -451738253572371701
+    second: muzzle_1_472
+  - first:
+      213: 8364725299333386435
+    second: muzzle_1_473
+  - first:
+      213: -5855854241837057122
+    second: muzzle_1_474
+  - first:
+      213: -4226464763160092774
+    second: muzzle_1_475
+  - first:
+      213: -2858974330773981062
+    second: muzzle_1_476
+  - first:
+      213: 3627869426912987142
+    second: muzzle_1_477
+  - first:
+      213: 2602628271885201530
+    second: muzzle_1_478
+  - first:
+      213: -1429838757646016483
+    second: muzzle_1_479
+  - first:
+      213: -1522590190414650070
+    second: muzzle_1_480
+  - first:
+      213: 60212338066933005
+    second: muzzle_1_481
+  - first:
+      213: 6508692352786929878
+    second: muzzle_1_482
+  - first:
+      213: -541347100357438789
+    second: muzzle_1_483
+  - first:
+      213: -5043074936097056542
+    second: muzzle_1_484
+  - first:
+      213: 4426172764723520822
+    second: muzzle_1_485
+  - first:
+      213: -7688930222389501050
+    second: muzzle_1_486
+  - first:
+      213: -5320585833714036144
+    second: muzzle_1_487
+  - first:
+      213: -3046537490063793803
+    second: muzzle_1_488
+  - first:
+      213: 7346714252972973328
+    second: muzzle_1_489
+  - first:
+      213: 7239391050088986153
+    second: muzzle_1_490
+  - first:
+      213: -1107625762468169572
+    second: muzzle_1_491
+  - first:
+      213: -9037746489847216254
+    second: muzzle_1_492
+  - first:
+      213: 3789245492404291097
+    second: muzzle_1_493
+  - first:
+      213: 7292676016211662889
+    second: muzzle_1_494
+  - first:
+      213: 1911843249437462551
+    second: muzzle_1_495
+  - first:
+      213: -6863376338745811091
+    second: muzzle_1_496
+  - first:
+      213: -5571423726127453690
+    second: muzzle_1_497
+  - first:
+      213: -4001838765110397655
+    second: muzzle_1_498
+  - first:
+      213: 6752635841408567198
+    second: muzzle_1_499
+  - first:
+      213: -6688689869604795583
+    second: muzzle_1_500
+  - first:
+      213: 4625454892387545611
+    second: muzzle_1_501
+  - first:
+      213: 5381312933202432284
+    second: muzzle_1_502
+  - first:
+      213: -351982919396290883
+    second: muzzle_1_503
+  - first:
+      213: 7032918767022686932
+    second: muzzle_1_504
+  - first:
+      213: -3906556895092488836
+    second: muzzle_1_505
+  - first:
+      213: -3485887073147181331
+    second: muzzle_1_506
+  - first:
+      213: -439452336599655577
+    second: muzzle_1_507
+  - first:
+      213: 4056483881978421604
+    second: muzzle_1_508
+  - first:
+      213: -7582876794734231857
+    second: muzzle_1_509
+  - first:
+      213: 7045313449876464470
+    second: muzzle_1_510
+  - first:
+      213: -3952254574549239033
+    second: muzzle_1_511
+  - first:
+      213: -7652945971792047347
+    second: muzzle_1_512
+  - first:
+      213: 316351264323257144
+    second: muzzle_1_513
+  - first:
+      213: 6611601262896291578
+    second: muzzle_1_514
+  - first:
+      213: 1357310610687676981
+    second: muzzle_1_515
+  - first:
+      213: 555521796552281303
+    second: muzzle_1_516
+  - first:
+      213: 3813960951906201494
+    second: muzzle_1_517
+  - first:
+      213: 3780873386115682926
+    second: muzzle_1_518
+  - first:
+      213: 443680573387905852
+    second: muzzle_1_519
+  - first:
+      213: -3325456328949171547
+    second: muzzle_1_520
+  - first:
+      213: -3030133536975663397
+    second: muzzle_1_521
+  - first:
+      213: 2861740223831093823
+    second: muzzle_1_522
+  - first:
+      213: 3162030618047356990
+    second: muzzle_1_523
+  - first:
+      213: 1875598068991215479
+    second: muzzle_1_524
+  - first:
+      213: -4482641634722659166
+    second: muzzle_1_525
+  - first:
+      213: 7692285631561942934
+    second: muzzle_1_526
+  - first:
+      213: -3746568990479895196
+    second: muzzle_1_527
+  - first:
+      213: 5051845811098161989
+    second: muzzle_1_528
+  - first:
+      213: -6159167564838778995
+    second: muzzle_1_529
+  - first:
+      213: -3516585452381357130
+    second: muzzle_1_530
+  - first:
+      213: -7294899156108251832
+    second: muzzle_1_531
+  - first:
+      213: 2987281892518972989
+    second: muzzle_1_532
+  - first:
+      213: -7374718446239147598
+    second: muzzle_1_533
+  - first:
+      213: 3891380790503042890
+    second: muzzle_1_534
+  - first:
+      213: 9187435682864345680
+    second: muzzle_1_535
+  - first:
+      213: 7783238297556274580
+    second: muzzle_1_536
+  - first:
+      213: -391706505157018556
+    second: muzzle_1_537
+  - first:
+      213: 5233497735727796195
+    second: muzzle_1_538
+  - first:
+      213: -4737126151113613027
+    second: muzzle_1_539
+  - first:
+      213: -179337713656452961
+    second: muzzle_1_540
+  - first:
+      213: 916953997526205514
+    second: muzzle_1_541
+  - first:
+      213: 7598894418556539716
+    second: muzzle_1_542
+  - first:
+      213: 4230032086487783681
+    second: muzzle_1_543
+  - first:
+      213: 9092978823711811093
+    second: muzzle_1_544
+  - first:
+      213: -4272824799197477454
+    second: muzzle_1_545
+  - first:
+      213: 4494409485508922795
+    second: muzzle_1_546
+  - first:
+      213: 2523303682881720787
+    second: muzzle_1_547
+  - first:
+      213: -2990967581077032722
+    second: muzzle_1_548
+  - first:
+      213: -5201021595805979735
+    second: muzzle_1_549
+  - first:
+      213: 7645998947722149652
+    second: muzzle_1_550
+  - first:
+      213: -5904746412168709717
+    second: muzzle_1_551
+  - first:
+      213: 6206149480747675250
+    second: muzzle_1_552
+  - first:
+      213: -8407623937677412431
+    second: muzzle_1_553
+  - first:
+      213: -4556251629264081336
+    second: muzzle_1_554
+  - first:
+      213: -5919638846634810647
+    second: muzzle_1_555
+  - first:
+      213: 7182039704331870321
+    second: muzzle_1_556
+  - first:
+      213: -2981780382349118464
+    second: muzzle_1_557
+  - first:
+      213: -8120304039944190178
+    second: muzzle_1_558
+  - first:
+      213: -6192078546788698327
+    second: muzzle_1_559
+  - first:
+      213: 970589304455528324
+    second: muzzle_1_560
+  - first:
+      213: -8951692034199669044
+    second: muzzle_1_561
+  - first:
+      213: -2678769212160875452
+    second: muzzle_1_562
+  - first:
+      213: -8919046599534570010
+    second: muzzle_1_563
+  - first:
+      213: -3712425510387315425
+    second: muzzle_1_564
+  - first:
+      213: 3330884310649575005
+    second: muzzle_1_565
+  - first:
+      213: 4524346370437835415
+    second: muzzle_1_566
+  - first:
+      213: 1866548133961914846
+    second: muzzle_1_567
+  - first:
+      213: -8729788351797113509
+    second: muzzle_1_568
+  - first:
+      213: -3692847796597440366
+    second: muzzle_1_569
+  - first:
+      213: -9100153720198706503
+    second: muzzle_1_570
+  - first:
+      213: -2006642834958670433
+    second: muzzle_1_571
+  - first:
+      213: 4200442101127615452
+    second: muzzle_1_572
+  - first:
+      213: 1843275461157956256
+    second: muzzle_1_573
+  - first:
+      213: 1046269340167403245
+    second: muzzle_1_574
+  - first:
+      213: 5935503583585332219
+    second: muzzle_1_575
+  - first:
+      213: -7685791139274276012
+    second: muzzle_1_576
+  - first:
+      213: 6611737097195365873
+    second: muzzle_1_577
+  - first:
+      213: 2211517703159139748
+    second: muzzle_1_578
+  - first:
+      213: -3361365362640275115
+    second: muzzle_1_579
+  - first:
+      213: 3143122317089891932
+    second: muzzle_1_580
+  - first:
+      213: 2317135464537404785
+    second: muzzle_1_581
+  - first:
+      213: -2158863164493826421
+    second: muzzle_1_582
+  - first:
+      213: -6473294434771315635
+    second: muzzle_1_583
+  - first:
+      213: -149567333518505212
+    second: muzzle_1_584
+  - first:
+      213: -2436965513812771058
+    second: muzzle_1_585
+  - first:
+      213: -5189378557344325608
+    second: muzzle_1_586
+  - first:
+      213: 7923180493026750790
+    second: muzzle_1_587
+  - first:
+      213: 289167236296565799
+    second: muzzle_1_588
+  - first:
+      213: -5919577159774243897
+    second: muzzle_1_589
+  - first:
+      213: -6218606823638513701
+    second: muzzle_1_590
+  - first:
+      213: -3934435637075231636
+    second: muzzle_1_591
+  - first:
+      213: 4856457649204229335
+    second: muzzle_1_592
+  - first:
+      213: 2412488284657493243
+    second: muzzle_1_593
+  - first:
+      213: -4994500150788471132
+    second: muzzle_1_594
+  - first:
+      213: -9028478642928157097
+    second: muzzle_1_595
+  - first:
+      213: -7673119595953763701
+    second: muzzle_1_596
+  - first:
+      213: -4876843528404035077
+    second: muzzle_1_597
+  - first:
+      213: 3783056518369986239
+    second: muzzle_1_598
+  - first:
+      213: 5613148787627860479
+    second: muzzle_1_599
+  - first:
+      213: -7405702775519865246
+    second: muzzle_1_600
+  - first:
+      213: 493386443906705767
+    second: muzzle_1_601
+  - first:
+      213: 1620518311022677882
+    second: muzzle_1_602
+  - first:
+      213: -428151817188897032
+    second: muzzle_1_603
+  - first:
+      213: 1440074847409787048
+    second: muzzle_1_604
+  - first:
+      213: 4547738589365050026
+    second: muzzle_1_605
+  - first:
+      213: 2305543688664949986
+    second: muzzle_1_606
+  - first:
+      213: -2790002962157191034
+    second: muzzle_1_607
+  - first:
+      213: 2762459619478359663
+    second: muzzle_1_608
+  - first:
+      213: -3889180559696934386
+    second: muzzle_1_609
+  - first:
+      213: -489852036768398793
+    second: muzzle_1_610
+  - first:
+      213: -8238950716819086002
+    second: muzzle_1_611
+  - first:
+      213: -4828168364491142278
+    second: muzzle_1_612
+  - first:
+      213: -5398056113843360313
+    second: muzzle_1_613
+  - first:
+      213: 4938481116527275302
+    second: muzzle_1_614
+  - first:
+      213: 8985270080094748411
+    second: muzzle_1_615
+  - first:
+      213: 2840281175727252628
+    second: muzzle_1_616
+  - first:
+      213: 2732153799933452979
+    second: muzzle_1_617
+  - first:
+      213: -862325371914615729
+    second: muzzle_1_618
+  - first:
+      213: -137724384558248513
+    second: muzzle_1_619
+  - first:
+      213: -5484130571122395310
+    second: muzzle_1_620
+  - first:
+      213: -2417824498889229434
+    second: muzzle_1_621
+  - first:
+      213: 507141437780292599
+    second: muzzle_1_622
+  - first:
+      213: -3423373779972952720
+    second: muzzle_1_623
+  - first:
+      213: 4295367887267537310
+    second: muzzle_1_624
+  - first:
+      213: 2030554983432572986
+    second: muzzle_1_625
+  - first:
+      213: -5842134626182371681
+    second: muzzle_1_626
+  - first:
+      213: 7450739517116232927
+    second: muzzle_1_627
+  - first:
+      213: 1051279194780971980
+    second: muzzle_1_628
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: muzzle_1_0
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f553729f8c9f95f0800000000000000
+      internalID: -747706872668924432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_1
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df6d7b9fe59fd200800000000000000
+      internalID: 207048964220743635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b00c826a3040a2290800000000000000
+      internalID: -7914508981431123957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_3
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f235c4776fceab0b0800000000000000
+      internalID: -5711992634058452177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c6a48abd08c8960800000000000000
+      internalID: 7605595551631567910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_5
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73dc53359d1fd340800000000000000
+      internalID: 4890660246996702079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_6
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c20901843d9e2c0800000000000000
+      internalID: -4401754854308959119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_7
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e530fb901404230800000000000000
+      internalID: 3620965610521058840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_8
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cbfbc09b5f2e0a30800000000000000
+      internalID: 4183333174191586244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_9
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3fd67a21e9f3d00800000000000000
+      internalID: 954655448981435387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23952644886db6310800000000000000
+      internalID: 1399447989979863346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_11
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cdc62f0f2bed0e00800000000000000
+      internalID: 1012724078578421190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_12
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4637c5d208bc5540800000000000000
+      internalID: 4998072008790455883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_13
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f36b145193f62db0800000000000000
+      internalID: -4816894945919278091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_14
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbaa43507cc51f540800000000000000
+      internalID: 5039911467859880635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_15
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca2e2606e68c6670800000000000000
+      internalID: 8533343716464536271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_16
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db16b51deaf27fa20800000000000000
+      internalID: 3095995696723747261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_17
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77258243e585f0a70800000000000000
+      internalID: 8795345758903095927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863277f970b7e6dc0800000000000000
+      internalID: -3643839775825779864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_19
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3791c4e03ff4c5d10800000000000000
+      internalID: 2115653830292806003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_20
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc49faee135494b90800000000000000
+      internalID: -7257193243770645300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_21
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824cb9fc050d2bd50800000000000000
+      internalID: 6751687836880847912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_22
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46803cd2ca131b690800000000000000
+      internalID: -7588229281570682780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_23
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7891d62093f1660c0800000000000000
+      internalID: -4582941241088599673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_24
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153194a945fcebd30800000000000000
+      internalID: 4449221444161311569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_25
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2ec677a56d14d60800000000000000
+      internalID: 7872809307659363005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c41ad7738642d40800000000000000
+      internalID: 5558682427622247575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_27
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f011048201d66a0800000000000000
+      internalID: -6454484925892456550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_28
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b196a9dcc8d054ff0800000000000000
+      internalID: -52620922248861413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_29
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed8564de0ced05b00800000000000000
+      internalID: 815396452749957342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_30
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f908b2b4529be50800000000000000
+      internalID: 6825527715039321920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_31
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0742e161f3d23a450800000000000000
+      internalID: 6098768069367047280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_32
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c35da7357623bd0800000000000000
+      internalID: -2651943622327059452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_33
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d79f06634761adb0800000000000000
+      internalID: -4782427790117988398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccde39737d32358d0800000000000000
+      internalID: -2858901931192750644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_35
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3bdaf99a14f7ff0800000000000000
+      internalID: -36238075211435018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_36
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63273752d1e393ef0800000000000000
+      internalID: -128002819500051914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_37
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 606c69270b29fd010800000000000000
+      internalID: 1215851710947706374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_38
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d381a24df2437e0800000000000000
+      internalID: -1786750563873440503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_39
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851d5483dba678830800000000000000
+      internalID: 4073341748905365848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_40
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c51cd2a7ee4070e0800000000000000
+      internalID: -2274231055045356096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_41
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c539f825476ce9fa0800000000000000
+      internalID: -5791973867848232100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04ffd61772f615a0800000000000000
+      internalID: -6550782014665001970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_43
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68fe231cd3f333e70800000000000000
+      internalID: 9093681607058059142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_44
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187097c1032b354f0800000000000000
+      internalID: -841132785682282623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_45
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a73479f3c15f0a0800000000000000
+      internalID: -6848536598900671871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_46
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 424f774268d43c580800000000000000
+      internalID: -8808111207673760732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_47
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5b4eb56be985130800000000000000
+      internalID: 3555766411871958524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_48
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9349fcfbdce22b050800000000000000
+      internalID: 5814761530109957177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_49
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 450a5cbedbbf1fdc0800000000000000
+      internalID: -3606825033424068524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb14c684b75eb570800000000000000
+      internalID: 8484315180879322085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_51
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17452906ebe56d630800000000000000
+      internalID: 3951449894821188721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_52
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc5db626be047280800000000000000
+      internalID: -9046589575983702845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_53
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f38a2c86fefb91d0800000000000000
+      internalID: -3342797963525454856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_54
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e27d3eba82079d9f0800000000000000
+      internalID: -443199768334444754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_55
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47e4c15ff073ffa0800000000000000
+      internalID: -5768142455840643254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_56
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e1b8e48c58b4440800000000000000
+      internalID: 4921174113190092380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle_1_57
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc498e299d5becee0800000000000000
+      internalID: -1238852901403061045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 33701e73038b0bd4ab2f81625540221e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":8.0},"gridSpriteSize":{"x":512.0,"y":512.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      muzzle_1_0: -747706872668924432
+      muzzle_1_1: 207048964220743635
+      muzzle_1_10: 1399447989979863346
+      muzzle_1_11: 1012724078578421190
+      muzzle_1_12: 4998072008790455883
+      muzzle_1_13: -4816894945919278091
+      muzzle_1_14: 5039911467859880635
+      muzzle_1_15: 8533343716464536271
+      muzzle_1_16: 3095995696723747261
+      muzzle_1_17: 8795345758903095927
+      muzzle_1_18: -3643839775825779864
+      muzzle_1_19: 2115653830292806003
+      muzzle_1_2: -7914508981431123957
+      muzzle_1_20: -7257193243770645300
+      muzzle_1_21: 6751687836880847912
+      muzzle_1_22: -7588229281570682780
+      muzzle_1_23: -4582941241088599673
+      muzzle_1_24: 4449221444161311569
+      muzzle_1_25: 7872809307659363005
+      muzzle_1_26: 5558682427622247575
+      muzzle_1_27: -6454484925892456550
+      muzzle_1_28: -52620922248861413
+      muzzle_1_29: 815396452749957342
+      muzzle_1_3: -5711992634058452177
+      muzzle_1_30: 6825527715039321920
+      muzzle_1_31: 6098768069367047280
+      muzzle_1_32: -2651943622327059452
+      muzzle_1_33: -4782427790117988398
+      muzzle_1_34: -2858901931192750644
+      muzzle_1_35: -36238075211435018
+      muzzle_1_36: -128002819500051914
+      muzzle_1_37: 1215851710947706374
+      muzzle_1_38: -1786750563873440503
+      muzzle_1_39: 4073341748905365848
+      muzzle_1_4: 7605595551631567910
+      muzzle_1_40: -2274231055045356096
+      muzzle_1_41: -5791973867848232100
+      muzzle_1_42: -6550782014665001970
+      muzzle_1_43: 9093681607058059142
+      muzzle_1_44: -841132785682282623
+      muzzle_1_45: -6848536598900671871
+      muzzle_1_46: -8808111207673760732
+      muzzle_1_47: 3555766411871958524
+      muzzle_1_48: 5814761530109957177
+      muzzle_1_49: -3606825033424068524
+      muzzle_1_5: 4890660246996702079
+      muzzle_1_50: 8484315180879322085
+      muzzle_1_51: 3951449894821188721
+      muzzle_1_52: -9046589575983702845
+      muzzle_1_53: -3342797963525454856
+      muzzle_1_54: -443199768334444754
+      muzzle_1_55: -5768142455840643254
+      muzzle_1_56: 4921174113190092380
+      muzzle_1_57: -1238852901403061045
+      muzzle_1_6: -4401754854308959119
+      muzzle_1_7: 3620965610521058840
+      muzzle_1_8: 4183333174191586244
+      muzzle_1_9: 954655448981435387
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

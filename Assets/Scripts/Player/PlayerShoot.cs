@@ -3,12 +3,18 @@ using UnityEngine;
 public class PlayerShoot : MonoBehaviour
 {
     [SerializeField] private Animator animator;
-    [SerializeField] private Projectile projectile;
-    [SerializeField] private Projectile secondaryProjectile;
 
+    [Header("Main gun")]
+    [SerializeField] [Tooltip("Main projectile for main gun")] private Projectile projectile;
     [SerializeField] private Transform gunPoint;
+    [SerializeField] private Animator muzzleAnimator;
+
+    [Header("Secondary guns")]
+    [SerializeField] private Projectile secondaryProjectile;
     [SerializeField] private Transform altGunPointLeft;
     [SerializeField] private Transform altGunPointRight;
+    [SerializeField] private Animator leftMuzzleAnimator;
+    [SerializeField] private Animator rightMuzzleAnimator;
     [SerializeField] private int maxBullets;
     [SerializeField] private float reloadDuration;
 
@@ -47,13 +53,14 @@ public class PlayerShoot : MonoBehaviour
     private void ShootSecondary()
     {
         // Spawn new GameObject using Instantiate()
-        SpawnSecondaryProjectile(altGunPointLeft);
-        SpawnSecondaryProjectile(altGunPointRight);
+        SpawnSecondaryProjectile(altGunPointLeft, leftMuzzleAnimator);
+        SpawnSecondaryProjectile(altGunPointRight, rightMuzzleAnimator);
     }
 
-    private void SpawnSecondaryProjectile(Transform gunPointTransform)
+    private void SpawnSecondaryProjectile(Transform gunPointTransform, Animator gunAnim)
     {
         Instantiate(secondaryProjectile, gunPointTransform.position, gunPointTransform.rotation);
+        gunAnim.Play("Muzzle_1", 0, 0f);
     }
 
     private void Shoot()
@@ -68,8 +75,11 @@ public class PlayerShoot : MonoBehaviour
         var bullet = Instantiate(projectile);
         bullet.transform.position = gunPoint.position;
         _bulletCount++;
-        //Debug.LogError($"Shot Fired! Bullet count={_bulletCount}");
-        animator.SetTrigger("Fire");
+        
+        // Invoke animation Fire from Player's animator
+        //animator.SetTrigger("Fire");
+        // Invoke animation Fire from Muzzle's animator
+        muzzleAnimator.Play("Muzzle", 0, 0f);
 
         if (_bulletCount >= maxBullets)
         {
