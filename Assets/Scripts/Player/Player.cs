@@ -6,7 +6,6 @@ public class Player : MonoBehaviour
     [SerializeField] private int health;
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Animator animator;
-    [SerializeField] private GameController gameController;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -20,7 +19,7 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        gameController.health = health;
+        GameController.Instance.health = health;
         if (Input.GetKeyDown(KeyCode.Space))
         {
             animator.SetBool("IsDead", false);

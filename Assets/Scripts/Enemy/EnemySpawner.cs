@@ -6,7 +6,6 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private Enemy enemyPrefab;
     [SerializeField] private float delay;
     [SerializeField] private int maxCount;
-    [SerializeField] private GameController gameController;
 
     private float _timeCount;
     [SerializeField] private List<Enemy> _enemyList = new();
@@ -32,7 +31,6 @@ public class EnemySpawner : MonoBehaviour
         }
 
         var enemy = Instantiate(enemyPrefab);
-        enemy.Init(gameController);
         enemy.GetComponent<EnemyMove>().Init(transform.position, transform.position + Vector3.down * 10f, 0.3f);
         _enemyList.Add(enemy);
     }
