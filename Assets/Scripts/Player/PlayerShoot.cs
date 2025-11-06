@@ -23,9 +23,23 @@ public class PlayerShoot : MonoBehaviour
     private int _bulletCount;
     private float _reloadTime;
     private bool _isReloading;
+    private bool _isShootable;
+
+    private void Awake()
+    {
+        Player.Dead += OnPlayerDead;
+        GameController.Replay += OnGameReplay;
+    }
+
+    private void OnDestroy()
+    {
+        Player.Dead -= OnPlayerDead;
+        GameController.Replay -= OnGameReplay;
+    }
 
     private void Start()
     {
+        _isShootable = true;
         Reload();
     }
 
@@ -52,6 +66,17 @@ public class PlayerShoot : MonoBehaviour
         }
     }
 
+    private void OnPlayerDead()
+    {
+        _isShootable = false;
+    }
+
+    private void OnGameReplay()
+    {
+        _isShootable = true;
+        Reload();
+    }
+
     private void ShootSecondary()
     {
         // Spawn new GameObject using Instantiate()
@@ -67,11 +92,14 @@ public class PlayerShoot : MonoBehaviour
 
     private void Shoot()
     {
-        if (_isReloading)
+        if (_isReloading || !_isShootable)
         {
             //Debug.LogError($"Gun is reloading! Time left: {_reloadTime}");
             return;
         }
+
+        // Play sfx
+        AudioController.Instance.PlayLaserSFX();
 
         // Spawn new GameObject using Instantiate()
         var bullet = Instantiate(projectile);

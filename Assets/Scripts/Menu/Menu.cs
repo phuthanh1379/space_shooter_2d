@@ -4,6 +4,11 @@ using UnityEngine.UI;
 
 public class Menu : MonoBehaviour
 {
+    public void OnClickButton()
+    {
+        AudioController.Instance.PlaySelectButtonSFX();
+    }
+
     public void OnClickPlayButton(int sceneIndex)
     {
         //SceneManager.LoadScene("MainScene"); // Load from scene name

@@ -6,6 +6,25 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] private GameObject pipeGameObject;
     [SerializeField] private Animator animator;
 
+    private bool _isMovable;
+
+    private void Awake()
+    {
+        Player.Dead += OnPlayerDead;
+        GameController.Replay += OnGameReplay;
+    }
+
+    private void OnDestroy()
+    {
+        Player.Dead -= OnPlayerDead;
+        GameController.Replay -= OnGameReplay;
+    }
+
+    private void Start()
+    {
+        _isMovable = true;
+    }
+
     private void Update()
     {
         Move();
@@ -13,6 +32,11 @@ public class PlayerMove : MonoBehaviour
 
     private void Move()
     {
+        if (!_isMovable)
+        {
+            return;
+        }
+
         var horizontal = Input.GetAxisRaw("Horizontal");
         var vertical = Input.GetAxisRaw("Vertical");
         animator.SetInteger("Horizontal", (int)horizontal);
@@ -28,5 +52,15 @@ public class PlayerMove : MonoBehaviour
         }
 
         transform.position += speed * Time.deltaTime * new Vector3(horizontal, vertical, 0f);
+    }
+
+    private void OnPlayerDead()
+    {
+        _isMovable = false;
+    }
+
+    private void OnGameReplay()
+    {
+        _isMovable = true;
     }
 }

@@ -2,7 +2,6 @@ using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UIElements;
 
 public class GameController : MonoBehaviour
 {
@@ -40,18 +39,18 @@ public class GameController : MonoBehaviour
     private void AddEvents()
     {
         Player.Dead += OnPlayerDead;
-        Player.Hit += OnPlayerHit;
+        Player.UpdateHealth += OnPlayerUpdateHealth;
         Enemy.Dead += OnEnemyDead;
     }
 
     private void RemoveEvents()
     {
         Player.Dead -= OnPlayerDead;
-        Player.Hit -= OnPlayerHit;
+        Player.UpdateHealth -= OnPlayerUpdateHealth;
         Enemy.Dead -= OnEnemyDead;
     }
 
-    private void OnPlayerHit(int health)
+    private void OnPlayerUpdateHealth(int health)
     {
         this.health = health;
         healthLabel.text = $"Health: {health}";
@@ -112,6 +111,8 @@ public class GameController : MonoBehaviour
     public void OnClickReplay()
     {
         Replay?.Invoke();
+        score = 0;
+        health = 0;
         gameOverMenu.SetActive(false);
     }
 }

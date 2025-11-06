@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
 
     private int _currentHealth;
     public static event Action Dead;
-    public static event Action<int> Hit;
+    public static event Action<int> UpdateHealth;
 
     private void OnGameReplay()
     {
@@ -21,7 +21,7 @@ public class Player : MonoBehaviour
     {
         StartCoroutine(OnGetHit());
         _currentHealth -= 1; // fixed number, should get from Projectile script
-        Hit?.Invoke(_currentHealth);
+        UpdateHealth?.Invoke(_currentHealth);
         if (_currentHealth <= 0)
         {
             OnDead();
@@ -37,6 +37,7 @@ public class Player : MonoBehaviour
     public void OnRevive()
     {
         _currentHealth = health;
+        UpdateHealth(_currentHealth);
         animator.SetBool("IsDead", false);
     }
 
