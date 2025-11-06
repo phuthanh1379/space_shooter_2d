@@ -32,6 +32,8 @@ public class EnemySpawner : MonoBehaviour
 
         var enemy = Instantiate(enemyPrefab);
         enemy.GetComponent<EnemyMove>().Init(transform.position, transform.position + Vector3.down * 10f, 0.3f);
+        var rnd = new System.Random();
+        enemy.SetScore(rnd.Next(10));
         _enemyList.Add(enemy);
     }
 

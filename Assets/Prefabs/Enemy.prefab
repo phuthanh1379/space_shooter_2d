@@ -232,6 +232,7 @@ MonoBehaviour:
   animator: {fileID: 6202998339838656649}
   boxCollider: {fileID: 4519941464337476084}
   move: {fileID: 5667390235164150}
+  score: 1
 --- !u!114 &5667390235164150
 MonoBehaviour:
   m_ObjectHideFlags: 0

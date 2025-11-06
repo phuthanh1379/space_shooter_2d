@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
@@ -5,6 +6,14 @@ public class Enemy : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private BoxCollider2D boxCollider;
     [SerializeField] private EnemyMove move;
+    [SerializeField] private int score;
+
+    public static event Action<int> Dead;
+    
+    public void SetScore(int score)
+    {
+        this.score = score;
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -13,7 +22,7 @@ public class Enemy : MonoBehaviour
 
     private void Die()
     {
-        GameController.Instance.score += 1;
+        Dead?.Invoke(score);
         animator.SetTrigger("Die");
         boxCollider.enabled = false;
         move.SetMovable(false);

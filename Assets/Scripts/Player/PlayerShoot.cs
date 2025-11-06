@@ -15,6 +15,8 @@ public class PlayerShoot : MonoBehaviour
     [SerializeField] private Transform altGunPointRight;
     [SerializeField] private Animator leftMuzzleAnimator;
     [SerializeField] private Animator rightMuzzleAnimator;
+
+    [Header("Gun Settings")]
     [SerializeField] private int maxBullets;
     [SerializeField] private float reloadDuration;
 

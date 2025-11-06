@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -7,19 +8,61 @@ public class Player : MonoBehaviour
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Animator animator;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private int _currentHealth;
+    public static event Action Dead;
+    public static event Action<int> Hit;
+
+    private void OnGameReplay()
+    {
+        OnRevive();
+    }
+
+    private void OnHit()
     {
         StartCoroutine(OnGetHit());
-        health -= 1; // fixed number, should get from Projectile script
-        if (health <= 0)
+        _currentHealth -= 1; // fixed number, should get from Projectile script
+        Hit?.Invoke(_currentHealth);
+        if (_currentHealth <= 0)
         {
-            animator.SetBool("IsDead", true);
+            OnDead();
         }
+    }
+
+    private void OnDead()
+    {
+        Dead?.Invoke();
+        animator.SetBool("IsDead", true);
+    }
+
+    public void OnRevive()
+    {
+        _currentHealth = health;
+        animator.SetBool("IsDead", false);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        OnHit();
+    }
+
+    private void Awake()
+    {
+        GameController.Replay += OnGameReplay;
+    }
+
+    private void OnDestroy()
+    {
+        GameController.Replay -= OnGameReplay;
+    }
+
+    private void Start()
+    {
+        _currentHealth = health;
     }
 
     private void Update()
     {
-        GameController.Instance.health = health;
+        GameController.Instance.health = _currentHealth;
         if (Input.GetKeyDown(KeyCode.Space))
         {
             animator.SetBool("IsDead", false);

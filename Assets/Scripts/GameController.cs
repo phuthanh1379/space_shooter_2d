@@ -1,14 +1,19 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
 public class GameController : MonoBehaviour
 {
     [SerializeField] private TMP_Text scoreLabel;
     [SerializeField] private TMP_Text healthLabel;
+    [SerializeField] private TMP_Text gameOverScoreLabel;
     [SerializeField] private GameObject inGameMenu;
+    [SerializeField] private GameObject gameOverMenu;
 
     public static GameController Instance;
+    public static event Action Replay;
     public int score;
     public int health;
 
@@ -23,6 +28,44 @@ public class GameController : MonoBehaviour
 
         Instance = this;
         DontDestroyOnLoad(gameObject);
+
+        AddEvents();
+    }
+
+    private void OnDestroy()
+    {
+        RemoveEvents();
+    }
+
+    private void AddEvents()
+    {
+        Player.Dead += OnPlayerDead;
+        Player.Hit += OnPlayerHit;
+        Enemy.Dead += OnEnemyDead;
+    }
+
+    private void RemoveEvents()
+    {
+        Player.Dead -= OnPlayerDead;
+        Player.Hit -= OnPlayerHit;
+        Enemy.Dead -= OnEnemyDead;
+    }
+
+    private void OnPlayerHit(int health)
+    {
+        this.health = health;
+        healthLabel.text = $"Health: {health}";
+    }
+
+    private void OnPlayerDead()
+    {
+        OnGameOver();
+    }
+
+    private void OnEnemyDead(int score)
+    {
+        this.score += score;
+        scoreLabel.text = $"Score: {this.score}";
     }
 
     private void Start()
@@ -30,13 +73,11 @@ public class GameController : MonoBehaviour
         _isPause = false;
         Time.timeScale = 1;
         inGameMenu.SetActive(false);
+        gameOverMenu.SetActive(false);
     }
 
     private void Update()
     {
-        scoreLabel.text = $"Score: {score}";
-        healthLabel.text = $"Health: {health}";
-
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             OnPauseGame();
@@ -57,8 +98,20 @@ public class GameController : MonoBehaviour
         inGameMenu.SetActive(_isPause);
     }
 
+    private void OnGameOver()
+    {
+        gameOverScoreLabel.text = $"Score: {score}";
+        gameOverMenu.SetActive(true);
+    }
+
     public void OnClickBackToMenuButton()
     {
         SceneManager.LoadScene(0);
+    }
+
+    public void OnClickReplay()
+    {
+        Replay?.Invoke();
+        gameOverMenu.SetActive(false);
     }
 }
