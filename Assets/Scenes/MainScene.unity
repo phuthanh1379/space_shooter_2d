@@ -1311,7 +1311,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -40, y: -20}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &449882308
@@ -1327,15 +1327,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8962264, g: 0.17332679, b: 0.17332679, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: e67d99f3dfb009243bf10db5c42dadae, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2939,7 +2939,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1281482067
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3352,7 +3352,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -200, y: 350}
+  m_SizeDelta: {x: 0, y: 350}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1411858198
 MonoBehaviour:
@@ -3374,8 +3374,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2615874204119335, guid: 92d247f91ca75f84d9ace256205020dc, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 6daa60d2acad9644a8a393c48b6b575c, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3961,7 +3961,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -20, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1593091081
 CanvasRenderer:
@@ -4000,8 +4000,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190335
+  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4018,7 +4018,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 53.7
+  m_fontSize: 35.8
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4122,15 +4122,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.16470584, g: 0.42845568, b: 0.8862745, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: e789f647021a386418b1e44d1076943a, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4753,8 +4753,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RepeatMove
   speed: 0.3
   destinations:
-  - {x: -11, y: 6.16, z: 0}
-  - {x: 11, y: 6.16, z: 0}
+  - {x: -5, y: 6, z: 0}
+  - {x: 5, y: 6, z: 0}
 --- !u!4 &2047449785
 Transform:
   m_ObjectHideFlags: 0
@@ -4764,7 +4764,7 @@ Transform:
   m_GameObject: {fileID: 2047449783}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11, y: 6.16, z: 0}
+  m_LocalPosition: {x: -5, y: 6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4785,6 +4785,10 @@ MonoBehaviour:
   enemyPrefab: {fileID: 159603346117784734, guid: 67896dfedb05e924fb54cd84ea070f18, type: 3}
   delay: 2
   maxCount: 10
+  profiles:
+  - {fileID: 11400000, guid: eab377024b8df4f4b8988b7f29412ac2, type: 2}
+  - {fileID: 11400000, guid: 5b6d1f7038657df4ea7223d878295d5e, type: 2}
+  - {fileID: 11400000, guid: 63c6e18d13cb2c6489605c2d3112cb81, type: 2}
   _enemyList: []
 --- !u!1001 &4337260803389542973
 PrefabInstance:
@@ -4835,13 +4839,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7888224882426781773, guid: 508cccf448735714dbdb0e23ea3dd60e, type: 3}
-      propertyPath: health
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7888224882426781773, guid: 508cccf448735714dbdb0e23ea3dd60e, type: 3}
-      propertyPath: gameController
+      propertyPath: profile
       value: 
-      objectReference: {fileID: 116257285}
+      objectReference: {fileID: 11400000, guid: 91d4425121017f9489adb62f90641959, type: 2}
     - target: {fileID: 8601164226545630040, guid: 508cccf448735714dbdb0e23ea3dd60e, type: 3}
       propertyPath: m_Name
       value: Player
@@ -4919,6 +4919,10 @@ PrefabInstance:
       propertyPath: gameOverMenu
       value: 
       objectReference: {fileID: 1281482066}
+    - target: {fileID: 3310852900825427134, guid: af547c0656003dd41b033143ca03d959, type: 3}
+      propertyPath: playerProfile
+      value: 
+      objectReference: {fileID: 11400000, guid: 91d4425121017f9489adb62f90641959, type: 2}
     - target: {fileID: 3310852900825427134, guid: af547c0656003dd41b033143ca03d959, type: 3}
       propertyPath: gameOverScoreLabel
       value: 

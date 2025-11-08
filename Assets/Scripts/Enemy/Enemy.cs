@@ -6,12 +6,14 @@ public class Enemy : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private BoxCollider2D boxCollider;
     [SerializeField] private EnemyMove move;
+    [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private int score;
 
     public static event Action<int> Dead;
-    
-    public void SetScore(int score)
+
+    public void Init(Sprite sprite, int score)
     {
+        spriteRenderer.sprite = sprite;
         this.score = score;
     }
 
@@ -22,6 +24,7 @@ public class Enemy : MonoBehaviour
 
     private void Die()
     {
+        spriteRenderer.gameObject.SetActive(false);
         Dead?.Invoke(score);
         animator.SetTrigger("Die");
         boxCollider.enabled = false;

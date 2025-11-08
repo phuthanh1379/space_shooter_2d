@@ -99,7 +99,7 @@ public class PlayerShoot : MonoBehaviour
         }
 
         // Play sfx
-        AudioController.Instance.PlayLaserSFX();
+        AudioController.Instance?.PlayLaserSFX();
 
         // Spawn new GameObject using Instantiate()
         var bullet = Instantiate(projectile);

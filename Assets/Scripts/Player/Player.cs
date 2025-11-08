@@ -1,14 +1,20 @@
 using System;
 using System.Collections;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] private int health;
+    [SerializeField] private PlayerProfile profile;
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Animator animator;
+    [SerializeField] private Image healthBarImage;
+    [SerializeField] private TMP_Text nameLabel;
 
-    private int _currentHealth;
+    private int CurrentHealth => profile.CurrentHealth;
+    private int MaxHealth => profile.Health;
+
     public static event Action Dead;
     public static event Action<int> UpdateHealth;
 
@@ -20,9 +26,8 @@ public class Player : MonoBehaviour
     private void OnHit()
     {
         StartCoroutine(OnGetHit());
-        _currentHealth -= 1; // fixed number, should get from Projectile script
-        UpdateHealth?.Invoke(_currentHealth);
-        if (_currentHealth <= 0)
+        UpdateCurrentHealth(CurrentHealth - 1);
+        if (CurrentHealth <= 0)
         {
             OnDead();
         }
@@ -36,8 +41,7 @@ public class Player : MonoBehaviour
 
     public void OnRevive()
     {
-        _currentHealth = health;
-        UpdateHealth(_currentHealth);
+        UpdateCurrentHealth(MaxHealth);
         animator.SetBool("IsDead", false);
     }
 
@@ -58,12 +62,12 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        _currentHealth = health;
+        UpdateCurrentHealth(MaxHealth);
+        nameLabel.text = profile.Name;
     }
 
     private void Update()
     {
-        GameController.Instance.health = _currentHealth;
         if (Input.GetKeyDown(KeyCode.Space))
         {
             animator.SetBool("IsDead", false);
@@ -77,5 +81,12 @@ public class Player : MonoBehaviour
         spriteRenderer.color = Color.red;
         yield return new WaitForSeconds(0.15f);
         spriteRenderer.color = Color.white;
+    }
+
+    private void UpdateCurrentHealth(int health)
+    {
+        profile.SetCurrentHealth(health);
+        healthBarImage.fillAmount = (float)CurrentHealth / MaxHealth;
+        UpdateHealth?.Invoke(CurrentHealth);
     }
 }

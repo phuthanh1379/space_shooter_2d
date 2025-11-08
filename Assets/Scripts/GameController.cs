@@ -10,13 +10,14 @@ public class GameController : MonoBehaviour
     [SerializeField] private TMP_Text gameOverScoreLabel;
     [SerializeField] private GameObject inGameMenu;
     [SerializeField] private GameObject gameOverMenu;
+    [SerializeField] private PlayerProfile playerProfile;
 
     public static GameController Instance;
     public static event Action Replay;
-    public int score;
     public int health;
 
     private bool _isPause;
+    private int Score => playerProfile.Score;
 
     private void Awake()
     {
@@ -63,8 +64,8 @@ public class GameController : MonoBehaviour
 
     private void OnEnemyDead(int score)
     {
-        this.score += score;
-        scoreLabel.text = $"Score: {this.score}";
+        playerProfile.SetScore(Score + score);
+        scoreLabel.text = $"Score: {Score}";
     }
 
     private void Start()
@@ -73,6 +74,7 @@ public class GameController : MonoBehaviour
         Time.timeScale = 1;
         inGameMenu.SetActive(false);
         gameOverMenu.SetActive(false);
+        scoreLabel.text = $"Score: {Score}";
     }
 
     private void Update()
@@ -99,7 +101,7 @@ public class GameController : MonoBehaviour
 
     private void OnGameOver()
     {
-        gameOverScoreLabel.text = $"Score: {score}";
+        gameOverScoreLabel.text = $"Score: {Score}";
         gameOverMenu.SetActive(true);
     }
 
@@ -111,7 +113,7 @@ public class GameController : MonoBehaviour
     public void OnClickReplay()
     {
         Replay?.Invoke();
-        score = 0;
+        playerProfile.SetScore(0);
         health = 0;
         gameOverMenu.SetActive(false);
     }

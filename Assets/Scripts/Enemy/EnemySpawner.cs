@@ -1,11 +1,13 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Profiling;
 
 public class EnemySpawner : MonoBehaviour
 {
     [SerializeField] private Enemy enemyPrefab;
     [SerializeField] private float delay;
     [SerializeField] private int maxCount;
+    [SerializeField] private List<EnemyProfile> profiles = new();
 
     private float _timeCount;
     [SerializeField] private List<Enemy> _enemyList = new();
@@ -33,7 +35,8 @@ public class EnemySpawner : MonoBehaviour
         var enemy = Instantiate(enemyPrefab);
         enemy.GetComponent<EnemyMove>().Init(transform.position, transform.position + Vector3.down * 10f, 0.3f);
         var rnd = new System.Random();
-        enemy.SetScore(rnd.Next(10));
+        var profile = profiles[rnd.Next(profiles.Count)];
+        enemy.Init(profile.ModelSprite, rnd.Next(10));
         _enemyList.Add(enemy);
     }
 
