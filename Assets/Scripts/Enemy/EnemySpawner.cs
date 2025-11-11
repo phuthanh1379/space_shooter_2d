@@ -11,6 +11,7 @@ public class EnemySpawner : MonoBehaviour
 
     private float _timeCount;
     [SerializeField] private List<Enemy> _enemyList = new();
+    [SerializeField] private BezierCurve bezierCurve;
     //private List<Enemy> _disabledEnemyList = new();
 
     private void Update()
@@ -36,7 +37,7 @@ public class EnemySpawner : MonoBehaviour
         enemy.GetComponent<EnemyMove>().Init(transform.position, transform.position + Vector3.down * 10f, 0.3f);
         var rnd = new System.Random();
         var profile = profiles[rnd.Next(profiles.Count)];
-        enemy.Init(profile.ModelSprite, rnd.Next(10));
+        enemy.Init(profile.ModelSprite, rnd.Next(10), bezierCurve.PositionList);
         _enemyList.Add(enemy);
     }
 

@@ -13,6 +13,11 @@ public class RepeatMove : MonoBehaviour
     private Vector3 _nextPosition;
     private Vector3 _move;
 
+    public void SetDestinations(List<Vector3> destinations)
+    {
+        this.destinations = new List<Vector3>(destinations);
+    }
+
     private void Start()
     {
         if (destinations == null || destinations.Count <= 1)
