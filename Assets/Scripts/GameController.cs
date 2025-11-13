@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System;
 using TMPro;
 using UnityEngine;
@@ -12,8 +13,16 @@ public class GameController : MonoBehaviour
     [SerializeField] private GameObject gameOverMenu;
     [SerializeField] private PlayerProfile playerProfile;
 
+    [Header("Dialogue")]
+    [SerializeField] private string dialogueContent;
+    [SerializeField] private GameObject dialogueGameObject;
+    [SerializeField] private TMP_Text dialogueLabel;
+    [SerializeField] private float dialogueDuration;
+
     public static GameController Instance;
     public static event Action Replay;
+    public static event Action BossEnemyAppear;
+    public static event Action BossEnemyFightStart;
     public int health;
 
     private bool _isPause;
@@ -83,6 +92,18 @@ public class GameController : MonoBehaviour
         {
             OnPauseGame();
         }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            OnBossEnemyAppear();
+        }
+    }
+
+    private void OnBossEnemyAppear()
+    {
+        BossEnemyAppear?.Invoke();
+        //AudioController.Instance.PlayBossBGM();
+        DOTween.To(() => string.Empty, x => dialogueLabel.text = x, dialogueContent, dialogueDuration).Play();
     }
 
     public void OnPauseGame()

@@ -12,12 +12,16 @@ public class PlayerMove : MonoBehaviour
     {
         Player.Dead += OnPlayerDead;
         GameController.Replay += OnGameReplay;
+        GameController.BossEnemyAppear += OnBossEnemyAppear;
+        GameController.BossEnemyFightStart += OnBossEnemyFightStart;
     }
 
     private void OnDestroy()
     {
         Player.Dead -= OnPlayerDead;
         GameController.Replay -= OnGameReplay;
+        GameController.BossEnemyAppear -= OnBossEnemyAppear;
+        GameController.BossEnemyFightStart -= OnBossEnemyFightStart;
     }
 
     private void Start()
@@ -60,6 +64,16 @@ public class PlayerMove : MonoBehaviour
     }
 
     private void OnGameReplay()
+    {
+        _isMovable = true;
+    }
+
+    private void OnBossEnemyAppear()
+    {
+        _isMovable = false;
+    }
+
+    private void OnBossEnemyFightStart()
     {
         _isMovable = true;
     }

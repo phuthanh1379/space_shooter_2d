@@ -9,6 +9,7 @@ public class AudioController : MonoBehaviour
     [SerializeField] private List<AudioClip> explosionAudioClips = new();
     [SerializeField] private List<AudioClip> buttonSelectAudioClips = new();
     [SerializeField] private AudioClip mainBGMAudioClip;
+    [SerializeField] private AudioClip bossBGMAudioClip;
     [SerializeField] private AudioClip gameOverAudioClip;
 
     public static AudioController Instance;
@@ -38,6 +39,11 @@ public class AudioController : MonoBehaviour
         PlayMusic(mainBGMAudioClip);
     }
 
+    public void SetVolumeSfx(float value) => sfxAudioSource.volume = value;
+    public void SetVolumeBgm(float value) => bgmAudioSource.volume = value;
+    public float GetVolumeSfx() => sfxAudioSource.volume;
+    public float GetVolumeBgm() => bgmAudioSource.volume;
+
     public void PlaySelectButtonSFX()
     {
         PlayRandomFromList(buttonSelectAudioClips);
@@ -48,7 +54,12 @@ public class AudioController : MonoBehaviour
         PlayRandomFromList(laserAudioClips);
     }
 
-    private void PlayExplosionSFX()
+    public void PlayBossBGM()
+    {
+        PlayMusic(bossBGMAudioClip);
+    }
+
+    public void PlayExplosionSFX()
     {
         PlayRandomFromList(explosionAudioClips);
     }

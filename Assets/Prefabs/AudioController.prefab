@@ -73,6 +73,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: aebca09a6c337094186f3d6886019192, type: 3}
   - {fileID: 8300000, guid: f7318a4af1d80c2449165139abe8861e, type: 3}
   mainBGMAudioClip: {fileID: 8300000, guid: 31cdb0b28ee2d96468374633c69d0641, type: 3}
+  bossBGMAudioClip: {fileID: 8300000, guid: 053e0a187c5c15e44a316ae10e03feea, type: 3}
   gameOverAudioClip: {fileID: 8300000, guid: bf727358bb8ad944799b931abf1dcbfa, type: 3}
 --- !u!1 &7000031329996348774
 GameObject:

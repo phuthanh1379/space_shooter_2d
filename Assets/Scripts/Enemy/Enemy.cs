@@ -25,7 +25,7 @@ public class Enemy : MonoBehaviour
         Die();
     }
 
-    private void Die()
+    public void Die()
     {
         spriteRenderer.gameObject.SetActive(false);
         Dead?.Invoke(score);
