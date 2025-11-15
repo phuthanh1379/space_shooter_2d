@@ -1,3 +1,4 @@
+using Common;
 using DG.Tweening;
 using TMPro;
 using UnityEngine;
@@ -80,13 +81,13 @@ public class Menu : MonoBehaviour
     private void OnSfxVolumeSliderValueChanged(float value)
     {
         AudioController.Instance.SetVolumeSfx(value);
-        sfxVolumeText.text = $"SFX: {Mathf.Round(value * 100)}";
+        sfxVolumeText.text = $"SFX: {Utils.GetFormatVolumeValue(value)}";
     }
 
     private void OnBgmVolumeSliderValueChanged(float value)
     {
         AudioController.Instance.SetVolumeBgm(value);
-        bgmVolumeText.text = $"BGM: {Mathf.Round(value * 100)}";
+        bgmVolumeText.text = $"BGM: {Utils.GetFormatVolumeValue(value)}";
     }
 
     //public void OnClickPlayButton(int sceneIndex)
