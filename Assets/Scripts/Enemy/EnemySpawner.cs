@@ -1,7 +1,6 @@
+using Controllers;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Profiling;
 
 public class EnemySpawner : MonoBehaviour
 {
@@ -14,9 +13,10 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private Vector3 startBossEnemyPosition;
 
     private float _timeCount;
-    [SerializeField] private List<Enemy> _enemyList = new();
     [SerializeField] private BezierCurve bezierCurve;
-    //private List<Enemy> _disabledEnemyList = new();
+    
+    private List<Enemy> ActiveEnemyList { get; } = new();
+    private List<Enemy> DisabledEnemyList { get; } = new();
 
     private bool _isSpawnable;
     private BossEnemy _bossEnemy;
@@ -36,14 +36,14 @@ public class EnemySpawner : MonoBehaviour
     private void OnBossEnemyAppear()
     {
         _isSpawnable = false;
-        if (_enemyList == null || _enemyList.Count <= 0)
+        if (ActiveEnemyList is not { Count: > 0 })
         {
             return;
         }
 
-        foreach (var enemy in _enemyList)
+        for (var i = 0; i < ActiveEnemyList.Count; i++)
         {
-            enemy.Die();
+            DisableEnemy(i);
         }
 
         _bossEnemy = Instantiate(bossEnemyPrefab, baseBossEnemyPosition, Quaternion.identity);
@@ -64,42 +64,104 @@ public class EnemySpawner : MonoBehaviour
     {
         if (_timeCount >= delay)
         {
-            Spawn();
+            RemoveEmptyEnemy();
+            GetEnemy();
             _timeCount = 0;
         }
 
         _timeCount += Time.deltaTime;
     }
 
-    private void Spawn()
-    {
-        if (!_isSpawnable)
-        {
-            return;
-        }
+    private EnemyProfile GetRandomProfile()
+        => profiles[new System.Random().Next(profiles.Count)];
 
-        ReCheckEnemyList();
-        if (_enemyList == null || _enemyList.Count >= maxCount)
+    private Enemy GetEnemy()
+    {
+        if (DisabledEnemyList == null || DisabledEnemyList.Count <= 0)
         {
-            return;
+            return SpawnEnemy();
+        }
+        else
+        {
+            return ReActivateEnemy();
+        }
+    }
+
+    private Enemy SpawnEnemy()
+    {
+        if (!_isSpawnable || ActiveEnemyList.Count >= maxCount)
+        {
+            return null;
         }
 
         var enemy = Instantiate(enemyPrefab);
-        enemy.GetComponent<EnemyMove>().Init(transform.position, transform.position + Vector3.down * 10f, 0.3f);
         var rnd = new System.Random();
-        var profile = profiles[rnd.Next(profiles.Count)];
+        var profile = GetRandomProfile();
         enemy.Init(profile.ModelSprite, rnd.Next(10), bezierCurve.PositionList);
-        _enemyList.Add(enemy);
+        ActiveEnemyList.Add(enemy);
+        return enemy;
     }
 
-    private void ReCheckEnemyList()
+    private Enemy ReActivateEnemy()
     {
-        for (var i = 0; i < _enemyList.Count; i++)
+        if (DisabledEnemyList == null || DisabledEnemyList.Count <= 0)
         {
-            var enemy = _enemyList[i];
+            return null;
+        }
+
+        var enemy = DisabledEnemyList[0];
+        enemy.gameObject.SetActive(true);
+        enemy.Enable();
+        DisabledEnemyList.RemoveAt(0);
+        ActiveEnemyList.Add(enemy);
+
+        return enemy;
+    }
+
+    private void DisableEnemy(Enemy enemy)
+    {
+        if (enemy == null)
+        {
+            return;
+        }
+
+        enemy.Disable();
+        enemy.gameObject.SetActive(false);
+        if (ActiveEnemyList.Contains(enemy))
+        {
+            ActiveEnemyList.Remove(enemy);
+        }
+
+        DisabledEnemyList.Add(enemy);
+    }
+
+    private void DisableEnemy(int index)
+    {
+        if (ActiveEnemyList == null || index < 0 || index >= ActiveEnemyList.Count)
+        {
+            return;
+        }
+
+        var enemy = ActiveEnemyList[index];
+        if (enemy == null)
+        {
+            return;
+        }
+
+        enemy.Disable();
+        enemy.gameObject.SetActive(false);
+        ActiveEnemyList.RemoveAt(index);
+        DisabledEnemyList.Add(enemy);
+    }
+
+    private void RemoveEmptyEnemy()
+    {
+        for (var i = 0; i < ActiveEnemyList.Count; i++)
+        {
+            var enemy = ActiveEnemyList[i];
             if (enemy == null)
             {
-                _enemyList.Remove(enemy);
+                ActiveEnemyList.Remove(enemy);
             }
         }
     }
