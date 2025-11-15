@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class Menu : MonoBehaviour
 {
+    [SerializeField] private Button quitButton;
     [SerializeField] private Button playButton;
     [SerializeField] private RectTransform playButtonRectTransform;
     [SerializeField] private Image playButtonImage;
@@ -28,6 +29,7 @@ public class Menu : MonoBehaviour
     private void Awake()
     {
         playButton.onClick.AddListener(OnClickPlayButton);
+        quitButton.onClick.AddListener(OnClickQuitButton);
         sfxVolumeSlider.onValueChanged.AddListener(OnSfxVolumeSliderValueChanged);
         bgmVolumeSlider.onValueChanged.AddListener(OnBgmVolumeSliderValueChanged);
     }
@@ -35,6 +37,7 @@ public class Menu : MonoBehaviour
     private void OnDestroy()
     {
         playButton.onClick.RemoveListener(OnClickPlayButton);
+        quitButton.onClick.RemoveListener(OnClickQuitButton);
         sfxVolumeSlider.onValueChanged.RemoveListener(OnSfxVolumeSliderValueChanged);
         bgmVolumeSlider.onValueChanged.RemoveListener(OnBgmVolumeSliderValueChanged);
     }
@@ -64,7 +67,7 @@ public class Menu : MonoBehaviour
     private void OnClickPlayButton()
     {
         var sequence = DOTween.Sequence();
-        var zoomTween = playButtonRectTransform.DOScale(2f, duration);
+        var zoomTween = playButtonRectTransform.DOScale(1.2f, duration);
         var buttonColorTween = playButtonImage.DOColor(buttonColor, duration);
         var textColorTween = playButtonText.DOColor(textColor, duration);
 
@@ -72,10 +75,14 @@ public class Menu : MonoBehaviour
             .Append(zoomTween)
             .Join(buttonColorTween)
             .Join(textColorTween)
-            //.SetLoops(-1, LoopType.Yoyo)
             .Play()
             .OnComplete(() => SceneManager.LoadScene(1))
             ;
+    }
+
+    private void OnClickQuitButton()
+    {
+        Application.Quit();
     }
 
     private void OnSfxVolumeSliderValueChanged(float value)
