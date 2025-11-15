@@ -13,6 +13,8 @@ public class MoveBackground : MonoBehaviour
     [SerializeField] private float maxX;
     [SerializeField] private Vector3 basePosition;
 
+    public void MultSpeed(float multiplier) => speed *= multiplier;
+
     private void Update()
     {
         if (direction == Direction.Left)
