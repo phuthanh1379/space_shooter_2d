@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b24fa2cb3b664af40901d37c1d20a9ec, type: 3}
+  m_Name: CardGameData
+  m_EditorClassIdentifier: Assembly-CSharp::CardGameData
+  cards:
+  - <CardSprite>k__BackingField: {fileID: 6500924963473623008, guid: 0deb2d74d9dc7334f91de8de24c7e8e7, type: 3}
+    <CardName>k__BackingField: Earth
+  - <CardSprite>k__BackingField: {fileID: 5757387326013145320, guid: 0deb2d74d9dc7334f91de8de24c7e8e7, type: 3}
+    <CardName>k__BackingField: Jupiter
+  - <CardSprite>k__BackingField: {fileID: 6278273958771524068, guid: 0deb2d74d9dc7334f91de8de24c7e8e7, type: 3}
+    <CardName>k__BackingField: What?
+  - <CardSprite>k__BackingField: {fileID: -949610279091838696, guid: 0deb2d74d9dc7334f91de8de24c7e8e7, type: 3}
+    <CardName>k__BackingField: Mars
+  - <CardSprite>k__BackingField: {fileID: -4201729930211315821, guid: 0deb2d74d9dc7334f91de8de24c7e8e7, type: 3}
+    <CardName>k__BackingField: Saturn
+  - <CardSprite>k__BackingField: {fileID: -4201729930211315821, guid: 0deb2d74d9dc7334f91de8de24c7e8e7, type: 3}
+    <CardName>k__BackingField: Saturn
+  - <CardSprite>k__BackingField: {fileID: -4201729930211315821, guid: 0deb2d74d9dc7334f91de8de24c7e8e7, type: 3}
+    <CardName>k__BackingField: Saturn
+  - <CardSprite>k__BackingField: {fileID: -4201729930211315821, guid: 0deb2d74d9dc7334f91de8de24c7e8e7, type: 3}
+    <CardName>k__BackingField: Saturn
+  - <CardSprite>k__BackingField: {fileID: -4201729930211315821, guid: 0deb2d74d9dc7334f91de8de24c7e8e7, type: 3}
+    <CardName>k__BackingField: Saturn
+  - <CardSprite>k__BackingField: {fileID: -4201729930211315821, guid: 0deb2d74d9dc7334f91de8de24c7e8e7, type: 3}
+    <CardName>k__BackingField: Saturn
+  - <CardSprite>k__BackingField: {fileID: -4201729930211315821, guid: 0deb2d74d9dc7334f91de8de24c7e8e7, type: 3}
+    <CardName>k__BackingField: Saturn
+  - <CardSprite>k__BackingField: {fileID: -4201729930211315821, guid: 0deb2d74d9dc7334f91de8de24c7e8e7, type: 3}
+    <CardName>k__BackingField: Saturn
+  - <CardSprite>k__BackingField: {fileID: -4201729930211315821, guid: 0deb2d74d9dc7334f91de8de24c7e8e7, type: 3}
+    <CardName>k__BackingField: Saturn
+  - <CardSprite>k__BackingField: {fileID: -4201729930211315821, guid: 0deb2d74d9dc7334f91de8de24c7e8e7, type: 3}
+    <CardName>k__BackingField: Saturn
+  - <CardSprite>k__BackingField: {fileID: -4201729930211315821, guid: 0deb2d74d9dc7334f91de8de24c7e8e7, type: 3}
+    <CardName>k__BackingField: Saturn
+  - <CardSprite>k__BackingField: {fileID: -4201729930211315821, guid: 0deb2d74d9dc7334f91de8de24c7e8e7, type: 3}
+    <CardName>k__BackingField: Saturn
+  - <CardSprite>k__BackingField: {fileID: -4201729930211315821, guid: 0deb2d74d9dc7334f91de8de24c7e8e7, type: 3}
+    <CardName>k__BackingField: Saturn
+  - <CardSprite>k__BackingField: {fileID: -4201729930211315821, guid: 0deb2d74d9dc7334f91de8de24c7e8e7, type: 3}
+    <CardName>k__BackingField: Saturn
+  - <CardSprite>k__BackingField: {fileID: -4201729930211315821, guid: 0deb2d74d9dc7334f91de8de24c7e8e7, type: 3}
+    <CardName>k__BackingField: Saturn
+  - <CardSprite>k__BackingField: {fileID: -4201729930211315821, guid: 0deb2d74d9dc7334f91de8de24c7e8e7, type: 3}
+    <CardName>k__BackingField: Saturn
