@@ -47,8 +47,9 @@ public class CardController : MonoBehaviour
 
     private void OnCardItemClicked(CardItem cardItem)
     {
-        //var positionOffset = destination.transform.position - cardItem.transform.position;
+        var positionOffset = destination.transform.position - cardParent.transform.position;
+        var target = cardParent.InverseTransformVector(positionOffset);
         cardItem.SetCardParent(destination);
-        cardItem.Move(Vector2.zero, 0.5f).Play();
+        cardItem.Move(target, 0.5f).Play();
     }
 }
