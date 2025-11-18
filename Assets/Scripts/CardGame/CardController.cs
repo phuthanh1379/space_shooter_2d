@@ -43,32 +43,6 @@ public class CardController : MonoBehaviour
             _cardItemList.Add(cardItem);
             startX += cardSpace;
         }
-
-        //var maxCardSpace = cardWidth + CardSpace;
-        //if (count % 2 != 0)
-        //{
-        //    var middleIndex = count / 2;
-        //    _cardItemList[middleIndex].SetPosition(0, 0);
-
-        //    if (count == 1)
-        //    {
-        //        return;
-        //    }
-
-        //    // Go backward
-        //    for (var i = middleIndex - 1; i >= 0; --i)
-        //    {
-        //        var x = -maxCardSpace * (middleIndex - i);
-        //        _cardItemList[i].SetPosition(x, 0);
-        //    }
-
-        //    // Go forward
-        //    for (var i = middleIndex + 1; i < count; ++i)
-        //    {
-        //        var x = maxCardSpace * (i - middleIndex);
-        //        _cardItemList[i].SetPosition(x, 0);
-        //    }
-        //}
     }
 
     private void OnCardItemClicked(CardItem cardItem)
