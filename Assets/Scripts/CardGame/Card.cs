@@ -14,9 +14,15 @@ public class Card
         get; private set; 
     }
 
-    public Card(Sprite cardSprite, string cardName)
+    [field: SerializeField] public int CardValue
+    {
+        get; private set;
+    }
+
+    public Card(Sprite cardSprite, string cardName, int cardValue)
     {
         CardSprite = cardSprite;
         CardName = cardName;
+        CardValue = cardValue;
     }
 }

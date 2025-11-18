@@ -5,6 +5,8 @@ using UnityEngine;
 public class CardGameData : ScriptableObject
 {
     [SerializeField] private List<Card> cards = new();
+    [SerializeField] private int cardDealQuantity;
 
     public List<Card> Cards => cards;
+    public int DealQuantity => cardDealQuantity;
 }
