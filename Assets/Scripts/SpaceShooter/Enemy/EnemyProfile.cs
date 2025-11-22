@@ -1,11 +1,14 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "EnemyProfile", menuName = "Enemies/Profile")]
-public class EnemyProfile : ScriptableObject
+namespace SpaceShooter.Enemy
 {
-    [field: SerializeField]
-    public Sprite ModelSprite
+    [CreateAssetMenu(fileName = "EnemyProfile", menuName = "Enemies/Profile")]
+    public class EnemyProfile : ScriptableObject
     {
-        get; private set;
+        [field: SerializeField]
+        public Sprite ModelSprite
+        {
+            get; private set;
+        }
     }
 }

@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using SpaceShooter;
+using SpaceShooter.Player;
 using UnityEngine;
 
 public class AudioController : MonoBehaviour

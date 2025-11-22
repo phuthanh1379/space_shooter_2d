@@ -1,70 +1,73 @@
 using UnityEngine;
 
-public class EnemyMove : MonoBehaviour
+namespace SpaceShooter.Enemy
 {
-    private Vector3 _start;
-    private Vector3 _end;
-    private Vector3 _move;
-    private float _speed;
-
-    private bool _isMovable;
-
-    public void SetMovable(bool isMovable)
+    public class EnemyMove : MonoBehaviour
     {
-        _isMovable = isMovable;
-    }
+        private Vector3 _start;
+        private Vector3 _end;
+        private Vector3 _move;
+        private float _speed;
 
-    public void Init(Vector3 start, Vector3 end, float speed)
-    {
-        _start = start;
-        _end = end;
-        transform.position = start;
-        _move = end - start;
-        _speed = speed;
-        _isMovable = true;
-    }
+        private bool _isMovable;
 
-    private void Update()
-    {
-        if (!_isMovable)
+        public void SetMovable(bool isMovable)
         {
-            return;
+            _isMovable = isMovable;
         }
 
-        if (IsExceeded(transform.position, _end, _move))
+        public void Init(Vector3 start, Vector3 end, float speed)
         {
-            _move *= -1;
-            (_start, _end) = (_end, _start);
+            _start = start;
+            _end = end;
+            transform.position = start;
+            _move = end - start;
+            _speed = speed;
+            _isMovable = true;
         }
 
-        transform.Translate(_speed * Time.deltaTime * _move);
-    }
-
-    private bool IsExceeded(Vector3 cur, Vector3 end, Vector3 move)
-    {
-        return IsExceeded(cur.x, end.x, move.x) &&
-            IsExceeded(cur.y, end.y, move.y) &&
-            IsExceeded(cur.z, end.z, move.z);
-    }
-
-    private bool IsExceeded(float cur, float max, float move)
-    {
-        if (move > 0)
+        private void Update()
         {
-            if (cur >= max)
-                return true;
-            else
-                return false;
+            if (!_isMovable)
+            {
+                return;
+            }
+
+            if (IsExceeded(transform.position, _end, _move))
+            {
+                _move *= -1;
+                (_start, _end) = (_end, _start);
+            }
+
+            transform.Translate(_speed * Time.deltaTime * _move);
         }
 
-        if (move < 0)
+        private bool IsExceeded(Vector3 cur, Vector3 end, Vector3 move)
         {
-            if (cur <= max)
-                return true;
-            else
-                return false;
+            return IsExceeded(cur.x, end.x, move.x) &&
+                   IsExceeded(cur.y, end.y, move.y) &&
+                   IsExceeded(cur.z, end.z, move.z);
         }
 
-        return true;
+        private bool IsExceeded(float cur, float max, float move)
+        {
+            if (move > 0)
+            {
+                if (cur >= max)
+                    return true;
+                else
+                    return false;
+            }
+
+            if (move < 0)
+            {
+                if (cur <= max)
+                    return true;
+                else
+                    return false;
+            }
+
+            return true;
+        }
     }
 }

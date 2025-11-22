@@ -1,58 +1,61 @@
 using UnityEngine;
 
-public class BossEnemyShoot : MonoBehaviour
+namespace SpaceShooter.Enemy
 {
-    [SerializeField] private Transform gunPoint;
-    [SerializeField] private BossProjectile specialProjectile;
-    [SerializeField] private Projectile projectile;
-    [SerializeField] private float delayBetweenShots;
-    [SerializeField] private int maxBullets;
-
-    private float _timeCount;
-    private bool _hasUsedSpecial;
-
-    private void Start()
+    public class BossEnemyShoot : MonoBehaviour
     {
-        _hasUsedSpecial = false;
-    }
+        [SerializeField] private Transform gunPoint;
+        [SerializeField] private BossProjectile specialProjectile;
+        [SerializeField] private Projectile projectile;
+        [SerializeField] private float delayBetweenShots;
+        [SerializeField] private int maxBullets;
 
-    private void Update()
-    {
-        if (_timeCount <= 0)
+        private float _timeCount;
+        private bool _hasUsedSpecial;
+
+        private void Start()
         {
-            if (!_hasUsedSpecial)
+            _hasUsedSpecial = false;
+        }
+
+        private void Update()
+        {
+            if (_timeCount <= 0)
             {
-                ShootSpecial();
+                if (!_hasUsedSpecial)
+                {
+                    ShootSpecial();
+                }
+                else
+                {
+                    Shoot();
+                }
+
+                _timeCount = delayBetweenShots;
             }
             else
             {
-                Shoot();
+                _timeCount -= Time.deltaTime;
             }
-
-            _timeCount = delayBetweenShots;
         }
-        else
+
+        private void Shoot()
         {
-            _timeCount -= Time.deltaTime;
+            _hasUsedSpecial = false;
+            var count = new System.Random().Next(1, maxBullets);
+            for (var i = 0; i < count; i++)
+            {
+                var rotationZ = new System.Random().Next(90, 270);
+                var rotation = Quaternion.Euler(0f, 0f, rotationZ);
+                var bullet = Instantiate(projectile, gunPoint.position, rotation);
+            }
         }
-    }
 
-    private void Shoot()
-    {
-        _hasUsedSpecial = false;
-        var count = new System.Random().Next(1, maxBullets);
-        for (var i = 0; i < count; i++)
+        public void ShootSpecial()
         {
-            var rotationZ = new System.Random().Next(90, 270);
-            var rotation = Quaternion.Euler(0f, 0f, rotationZ);
-            var bullet = Instantiate(projectile, gunPoint.position, rotation);
+            var bullet = Instantiate(specialProjectile, gunPoint.position, Quaternion.Euler(Vector3.down));
+            AudioController.Instance.PlayExplosionSFX();
+            _hasUsedSpecial = true;
         }
-    }
-
-    public void ShootSpecial()
-    {
-        var bullet = Instantiate(specialProjectile, gunPoint.position, Quaternion.Euler(Vector3.down));
-        AudioController.Instance.PlayExplosionSFX();
-        _hasUsedSpecial = true;
     }
 }

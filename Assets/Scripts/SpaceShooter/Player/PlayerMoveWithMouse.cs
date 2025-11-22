@@ -1,22 +1,25 @@
 using UnityEngine;
 
-public class PlayerMoveWithMouse : MonoBehaviour
+namespace SpaceShooter.Player
 {
-    [SerializeField] private float speed;
-
-    private void Start()
+    public class PlayerMoveWithMouse : MonoBehaviour
     {
-        // (Optional) Turn off cursor's visibility
-        //Cursor.visible = false;
-    }
+        [SerializeField] private float speed;
 
-    private void Update()
-    {
-        Vector3 mouseScreenPosition = Input.mousePosition;
+        private void Start()
+        {
+            // (Optional) Turn off cursor's visibility
+            //Cursor.visible = false;
+        }
 
-        mouseScreenPosition.z = Camera.main.WorldToScreenPoint(transform.position).z;
-        Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(mouseScreenPosition);
+        private void Update()
+        {
+            Vector3 mouseScreenPosition = Input.mousePosition;
 
-        transform.position = mouseWorldPosition;
+            mouseScreenPosition.z = Camera.main.WorldToScreenPoint(transform.position).z;
+            Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(mouseScreenPosition);
+
+            transform.position = mouseWorldPosition;
+        }
     }
 }

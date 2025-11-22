@@ -1,28 +1,31 @@
 using System.Collections;
 using UnityEngine;
 
-public class BossProjectile : MonoBehaviour
+namespace SpaceShooter.Enemy
 {
-    [SerializeField] private float speed;
-
-    private void Start()
+    public class BossProjectile : MonoBehaviour
     {
-        StartCoroutine(WaitToSelfDestruct(2.5f));
-    }
+        [SerializeField] private float speed;
 
-    private void Update()
-    {
-        transform.Translate(speed * Time.deltaTime * Vector3.down);
-    }
+        private void Start()
+        {
+            StartCoroutine(WaitToSelfDestruct(2.5f));
+        }
 
-    private IEnumerator WaitToSelfDestruct(float time)
-    {
-        yield return new WaitForSeconds(time);
-        SelfDestruct();
-    }
+        private void Update()
+        {
+            transform.Translate(speed * Time.deltaTime * Vector3.down);
+        }
 
-    private void SelfDestruct()
-    {
-        Destroy(gameObject);
+        private IEnumerator WaitToSelfDestruct(float time)
+        {
+            yield return new WaitForSeconds(time);
+            SelfDestruct();
+        }
+
+        private void SelfDestruct()
+        {
+            Destroy(gameObject);
+        }
     }
 }

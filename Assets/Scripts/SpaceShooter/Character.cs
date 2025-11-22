@@ -1,21 +1,24 @@
 using System;
 
-[Serializable]
-public class Character
+namespace SpaceShooter
 {
-    public int Health
+    [Serializable]
+    public class Character
     {
-        get; set;
-    }
+        public int Health
+        {
+            get; set;
+        }
 
-    public string Name
-    {
-        get; set; 
-    }
+        public string Name
+        {
+            get; set; 
+        }
 
-    public Character(int health, string name)
-    {
-        this.Health = health;
-        this.Name = name;
+        public Character(int health, string name)
+        {
+            this.Health = health;
+            this.Name = name;
+        }
     }
 }

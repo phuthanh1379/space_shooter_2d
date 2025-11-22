@@ -1,10 +1,13 @@
 using DG.Tweening;
 using UnityEngine;
 
-public class BossEnemy : MonoBehaviour
+namespace SpaceShooter.Enemy
 {
-    public void Init(Vector3 startPosition, float duration)
+    public class BossEnemy : MonoBehaviour
     {
-        transform.DOMove(startPosition, duration).Play();
+        public void Init(Vector3 startPosition, float duration)
+        {
+            transform.DOMove(startPosition, duration).Play();
+        }
     }
 }
