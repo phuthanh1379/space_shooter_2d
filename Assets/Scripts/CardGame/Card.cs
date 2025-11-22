@@ -1,28 +1,31 @@
 using System;
 using UnityEngine;
 
-[Serializable]
-public class Card
+namespace CardGame
 {
-    [field: SerializeField] public Sprite CardSprite
+    [Serializable]
+    public class Card
     {
-        get; private set;
-    }
+        [field: SerializeField] public Sprite CardSprite
+        {
+            get; private set;
+        }
 
-    [field: SerializeField] public string CardName
-    {
-        get; private set; 
-    }
+        [field: SerializeField] public string CardName
+        {
+            get; private set; 
+        }
 
-    [field: SerializeField] public int CardValue
-    {
-        get; private set;
-    }
+        [field: SerializeField] public int CardValue
+        {
+            get; private set;
+        }
 
-    public Card(Sprite cardSprite, string cardName, int cardValue)
-    {
-        CardSprite = cardSprite;
-        CardName = cardName;
-        CardValue = cardValue;
+        public Card(Sprite cardSprite, string cardName, int cardValue)
+        {
+            CardSprite = cardSprite;
+            CardName = cardName;
+            CardValue = cardValue;
+        }
     }
 }
